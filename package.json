@@ -1,0 +1,23 @@
+{
+  "name": "project-Genisys",
+  "version": "1.0.0",
+  "description": "Project to build an E-Commerce Website App.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imavicks/project-Genisys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imavicks/project-Genisys/issues"
+  },
+  "homepage": "https://github.com/Imavicks/project-Genisys#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
