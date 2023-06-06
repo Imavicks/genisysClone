@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Prototype</title>
     <link rel="stylesheet" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="main">
@@ -51,16 +54,23 @@
             <h3><b>New Balance 574 Core</b></h3>
             <div class="gridA">
                 <img src="resources/assets/white 15.jpg" alt="" id="grid1">
-                <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src)">
-                <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src)">
-                <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src)">
+                <div class="shoe-part">
+                    <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src)">
+                    <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src)">
+                    <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src)">
+                </div>
+
             </div>
         </div>
         <div class="right-container">
             <div class="grid-selection">
-                <h3>N31,500 <span>50%</span><img src="resources/assets/rating.jpg"></h3>
-                <h4>N63000</h4>
-                <p id="color">colour: Nimbus cloud with white</p>
+                <div class="shoe-detail">
+                    <h3><b>&#8358;31,500</b></h3>
+                    <span>50%</span>
+                    <img src="resources/assets/rating.jpg">
+                </div>
+                <h4>&#8358;63000</h4>
+                <p id="color"><b>Colour:</b>Nimbus cloud with white</p>
                 <div class="gridB">
                     <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1)">
                     <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2)">
@@ -70,14 +80,14 @@
             </div>
             <div class="btn-selection">
                 <div class="select-size">
-                    <p>Select size</p>
+                    <p><b>Select size</b></p>
                     <button type="button">5</button>
                     <button type="button">5.5</button>
                     <button type="button">6</button>
                     <button type="button">6.5</button>
                 </div>
                 <div class="select-width">
-                    <p>Select width</p>
+                    <p><b>Select width</b></p>
                     <button type="button">Standard</button>
                     <button type="button">Wide</button>
                 </div>
