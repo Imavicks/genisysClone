@@ -477,3 +477,7 @@ footer {
   left: 33rem;
   font-size: 10px;
 }
+
+@media (maxwidth:744px) {
+  
+}
