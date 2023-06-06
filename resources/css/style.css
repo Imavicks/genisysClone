@@ -150,6 +150,7 @@
 
 .shoe-part{
   display: flex;
+  flex-wrap: wrap;
   margin-top: 1vw;
 }
 
@@ -478,6 +479,69 @@ footer {
   font-size: 10px;
 }
 
-@media (maxwidth:744px) {
-  
+@media (max-width:744px) {
+  .sect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-container h3{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #grid2,#grid3,#grid4{
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #grid1{
+    width: 25vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #gridB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gridB img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .select-width button{
+    width: 5rem;
+    height: 3.75rem;
+  }
+
+  .select-size button{
+    width: 3.5rem;
+    height: 3.75rem;
+  }
+
+  .shoe-detail h3{
+    font-size: 0.7rem;
+  }
+
+  .shoe-detail span{
+    font-size: 0.5rem;
+    width: 0.9rem;
+    height: 0.55rem;
+  }
+
+  .shoe-detail img{
+    width: 10vw;
+  }
+  .add-cart button{
+    width: 9.3rem;
+    height: 3.75rem;
+  }
+
+  .grid-selection h4{
+    font-size: 0.5rem;
+  }
 }
