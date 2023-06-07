@@ -22,9 +22,7 @@ function changeGridA(imageNumber) {
   }
 
   // Set grid A images to the imageSet if condition matches
-  /* eslint-disable */
-  for (let i = 0; i < imageSet.length; i++) {
-  /* eslint-enable */
+  for (let i = 0; i < imageSet.length; i += 1) {
     if (i < gridAImages.length) {
       gridAImages[i].src = imageSet[i];
     }
