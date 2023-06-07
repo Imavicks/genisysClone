@@ -12,11 +12,9 @@
   margin-right: 10px;
 }
 
-.links a {
-  text-decoration: none;
-  color: black;
-  font-size: 10px;
-  margin: 10px;
+.pre_nav ul li {
+  list-style: none;
+  display: inline-block;
 }
 
 .base {
