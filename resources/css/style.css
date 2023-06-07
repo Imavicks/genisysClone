@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-
+/*-- Start of header style --*/
 .main {
   width: 100vw;
 }
@@ -168,20 +168,7 @@ input {
   border-radius: 20px;
 }
 
-.menu h5 {
-  position: relative;
-  color: white;
-  left: 11rem;
-  font-size: 15px;
-}
-
-.menu img {
-  position: relative;
-  height: 40px;
-  width: 40px;
-  left: 12rem;
-  border-radius: 30px;
-}
+/*-- End of header style --*/
 
 .directory a {
   position: relative;
