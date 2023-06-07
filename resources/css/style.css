@@ -111,34 +111,10 @@ input {
   padding: 10px;
 }
 
-.base-input input::placeholder {
-  font-size: 12px;
-  padding: 10px;
-}
-
-.base-input button {
-  position: relative;
-  width: 10rem;
-  height: 38px;
-  text-align: left;
-  padding: 10px;
-  background-color: white;
-  border: 0.5px solid black;
-}
-
-.base-input img {
-  position: relative;
-  right: 2rem;
-  top: 11px;
-  height: 30px;
-  width: 30px;
-}
-
-.base-img img {
-  position: relative;
-  margin: 20px;
-  height: 25px;
+.pic_2 {
   width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .menu {
