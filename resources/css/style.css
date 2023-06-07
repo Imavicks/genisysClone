@@ -117,6 +117,12 @@ input {
   margin-top: 10px;
 }
 
+.dashboard {
+  background-color: #000000;
+  color: white;
+  height: 70px;
+}
+
 .menu {
   position: relative;
   display: flex;
