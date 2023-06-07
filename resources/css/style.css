@@ -51,6 +51,15 @@ h1 {
   font-family: 'Montserrat';
 }
 
+.base-search {
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  border-radius: 4px;
+  margin-left: 0px;
+  height: 56px;
+  width: 625px;
+}
+
 .base-input {
   border: 1px solid grey;
   border-radius: 0px 3px 3px 0px;
