@@ -143,6 +143,12 @@ input {
   text-decoration: none;
 }
 
+.profile {
+  margin-left: 950px;
+  height: 60px;
+  margin-top: -25px;
+}
+
 .menu h5 {
   position: relative;
   color: white;
