@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
 }
-/*-- Start of header style --*/
+
+/* --Start of header style-- */
+
 .main {
   width: 100vw;
 }
@@ -17,9 +19,9 @@
   display: inline-block;
 }
 
-.pre_nav ul li a {
+.pre_nav a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   width: 91px;
   height: 20px;
   margin-left: 10px;
@@ -47,15 +49,15 @@ h1 {
   width: 317px;
   height: 48px;
   margin-top: -10px;
-  margin-left: 26px; 
+  margin-left: 26px;
   font-family: 'Montserrat';
 }
 
 .base-search {
   display: grid;
-  grid-template-columns: repeat(3,1fr) ;
+  grid-template-columns: repeat(3, 1fr);
   border-radius: 4px;
-  margin-left: 0px;
+  margin-left: 0;
   height: 56px;
   width: 625px;
 }
@@ -71,17 +73,17 @@ input {
   font-size: 14px;
   line-height: 18px;
   border: 1px solid grey;
-  border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0 0 3px;
 }
 
 .base-sel {
   border: 1px solid grey;
-  border-radius: 0px 3px 3px 0px;
+  border-radius: 0 3px 3px 0;
   height: 38.5px;
   width: 168px;
   gap: 10px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #sel_1 {
@@ -102,7 +104,7 @@ input {
   margin-top: 2px;
   height: 35px;
   width: 35px;
-  background-color: #6A1C0B;
+  background-color: #6a1c0b;
 }
 
 .pic_1 {
@@ -118,7 +120,7 @@ input {
 }
 
 .dashboard {
-  background-color: #000000;
+  background-color: #000;
   color: white;
   height: 70px;
 }
@@ -138,7 +140,7 @@ input {
   line-height: 28px;
 }
 
-.categories ul li a {
+.categories a {
   color: white;
   text-decoration: none;
 }
@@ -168,7 +170,7 @@ input {
   border-radius: 20px;
 }
 
-/*-- End of header style --*/
+/* -- End of header style -- */
 
 .directory a {
   position: relative;
