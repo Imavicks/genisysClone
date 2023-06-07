@@ -123,20 +123,8 @@ input {
   height: 70px;
 }
 
-.menu {
-  position: relative;
-  display: flex;
-  background-color: black;
-  height: 50px;
-  margin-top: 10px;
-  align-items: center;
-}
-
 .categories {
-  background-color: #6a1c0b;
-  width: 13rem;
-  height: 3rem;
-  margin-left: 17px;
+  text-align: center;
 }
 
 .categories p {
