@@ -51,6 +51,16 @@
   font-family: 'Montserrat';
 }
 
+.base-input {
+  border: 1px solid grey;
+  border-radius: 0px 3px 3px 0px;
+  height: 40px;
+  width: 168px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
 .base-input input {
   position: relative;
   height: 38px;
