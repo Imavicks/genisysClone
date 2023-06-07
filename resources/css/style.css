@@ -209,7 +209,7 @@ input {
   margin-left: 1vw;
 }
 
-.shoe-part{
+.shoe-part {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1vw;
@@ -225,31 +225,39 @@ input {
   margin-top: 2vw;
 }
 
-#grid2,#grid3,#grid4 {
+#grid2 {
   height: 8rem;
   width: 8rem;
 }
 
-#grid3,#grid4{
+#grid3 {
+  height: 8rem;
+  width: 8rem;
   margin-left: 1.6rem;
 }
 
-.right-container{
+#grid4 {
+  height: 8rem;
+  width: 8rem;
+  margin-left: 1.6rem;
+}
+
+.right-container {
   margin-top: 5.5vw;
   margin-left: 5vw;
 }
 
-.shoe-detail{
+.shoe-detail {
   display: flex;
 }
 
-.shoe-detail h3{
+.shoe-detail h3 {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
-.shoe-detail span{
+.shoe-detail span {
   background-color: rgb(202, 241, 194);
   width: 1.9rem;
   height: 1.1rem;
@@ -260,18 +268,18 @@ input {
   font-weight: 500;
 }
 
-.shoe-detail img{
+.shoe-detail img {
   width: 7vw;
   margin-left: 10vw;
 }
 
-.grid-selection h4{
+.grid-selection h4 {
   text-decoration: line-through;
   font-size: 1rem;
-  color:rgba(155, 155, 155, 1)
+  color: rgba(155, 155, 155, 1);
 }
 
-.grid-selection p{
+.grid-selection p {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -299,7 +307,7 @@ input {
   margin-left: 0.5vw;
 }
 
-.select-size button{
+.select-size button {
   box-sizing: border-box;
   border: 1px solid #9b9b9b;
   width: 10.2vw;
@@ -307,7 +315,7 @@ input {
   margin: 0.5vw;
   margin-top: 0.7rem;
   font-size: 1.5rem;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   background-color: #fff;
 }
@@ -320,7 +328,7 @@ input {
   margin-left: 0.5vw;
 }
 
-.select-width button{
+.select-width button {
   width: 10.2vw;
   height: 3.5rem;
   font-family: 'Roboto', sans-serif;
@@ -339,7 +347,7 @@ input {
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1rem;
 }
@@ -540,69 +548,80 @@ footer {
   font-size: 10px;
 }
 
-@media (max-width:744px) {
-  .sect1{
+@media (max-width: 744px) {
+  .sect1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .left-container h3{
+  .left-container h3 {
     font-size: 1.2rem;
     text-align: center;
   }
 
-  #grid2,#grid3,#grid4{
+  #grid2 {
     height: 4rem;
     width: 4rem;
   }
 
-  #grid1{
+  #grid3 {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #grid4 {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  #grid1 {
     width: 25vw;
     display: block;
     margin: 0 auto;
   }
 
-  #gridB{
+  #gridB {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .gridB img{
+  .gridB img {
     width: 3rem;
     height: 3rem;
   }
 
-  .select-width button{
+  .select-width button {
     width: 5rem;
     height: 3.75rem;
   }
 
-  .select-size button{
+  .select-size button {
     width: 3.5rem;
     height: 3.75rem;
   }
 
-  .shoe-detail h3{
+  .shoe-detail h3 {
     font-size: 0.7rem;
   }
 
-  .shoe-detail span{
+  .shoe-detail span {
     font-size: 0.5rem;
     width: 0.9rem;
     height: 0.55rem;
   }
 
-  .shoe-detail img{
+  .shoe-detail img {
     width: 10vw;
   }
-  .add-cart button{
+
+  .add-cart button {
     width: 9.3rem;
     height: 3.75rem;
   }
 
-  .grid-selection h4{
+  .grid-selection h4 {
     font-size: 0.5rem;
   }
 }
