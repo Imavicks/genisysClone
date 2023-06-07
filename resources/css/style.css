@@ -105,6 +105,12 @@ input {
   background-color: #6A1C0B;
 }
 
+.pic_1 {
+  width: 15px;
+  height: 17px;
+  padding: 10px;
+}
+
 .base-input input::placeholder {
   font-size: 12px;
   padding: 10px;
