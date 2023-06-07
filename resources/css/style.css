@@ -7,10 +7,9 @@
   width: 100vw;
 }
 
-.links {
-  position: relative;
-  float: right;
-  bottom: 10px;
+.pre_nav {
+  text-align: right;
+  margin-right: 10px;
 }
 
 .links a {
