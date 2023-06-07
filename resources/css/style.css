@@ -84,6 +84,20 @@ input {
   grid-template-columns: repeat(2,1fr);
 }
 
+#sel_1 {
+  width: 120px;
+  height: 38px;
+  padding-left: 3px;
+  color: #191919;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+}
+
+
 .base-input input::placeholder {
   font-size: 12px;
   padding: 10px;
