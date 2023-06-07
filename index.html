@@ -13,35 +13,48 @@
 </head>
 <body>
     <header class="main">
-        <div class="links">
-            <a href="#">Order Status</a>
-            <a href="#">Return Order</a>
-            <a href="#">Delivery</a>
-            <a href="#">Help</a>
+        <!-- Pre navigation menu -->
+        <div class="pre_nav">
+            <ul>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Return Order</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
         </div>
         <div class="base">
-            <div class="base-txt">
-                <h1>KICKIN' IT</h1>
+            <h1>KICKIN' IT</h1>
+            <div class="base-search">
+                <input type="search" placeholder="Search Product">
+                <div class="base-sel">
+                    <select name="" id="sel_1"><option value="">All Categories</option></select>
+                    <div class="base-img_1">
+                        <img src="resources/assets/icons8-search-50.png" class="pic_1">
+                    </div>
+                </div>
             </div>
-            <div class="base-input">
-                <input type="search" placeholder="Search Product"><button type="button">All Categories</button><img src="resources/assets/icons8-search-50.png">
+            <div class="base-img_2">
+                <img src="resources/assets/shopping-cart-20392.png" alt="cart" class="pic_2">
             </div>
-            <div class="base-img">
-                <img src="resources/assets/shopping-cart-20392.png">
+        </div>
+        <!-- Main navigation menu -->
+        <div class="dashboard">
+            <div class="categories">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <p class="profile_name"> Hi Victor!</p>
+                <a href="#"><img src="resources/assets/profile_pic.png" alt="Profile Picture" class="profile_pic"></a>
             </div>
         </div>
     </header>
-    <header class="menu">
-        <div class="categories">
-            <p>All Categories</p>
-        </div>
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Location</a>
-        <h5>Hi Victor!</h5><img src="resources/assets/pp.jpg">
-    </header>
+    <!--End of header-->
     <div class="directory">
         <a href="#">Home</a>
         <a href="#">All Categories</a>
