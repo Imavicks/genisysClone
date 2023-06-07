@@ -138,14 +138,9 @@ input {
   line-height: 28px;
 }
 
-.menu a {
-  position: relative;
-  text-decoration: none;
+.categories ul li a {
   color: white;
-  left: 0.5rem;
-  padding: 10px;
-  margin-left: 5rem;
-  font-size: 15px;
+  text-decoration: none;
 }
 
 .menu h5 {
