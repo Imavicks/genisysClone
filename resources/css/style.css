@@ -8,7 +8,7 @@
 .main {
   width: 100vw;
   padding: 20px;
-  background-color: #000000;
+  background-color: #000;
 }
 
 .base {
@@ -25,7 +25,7 @@ h1 {
   font-weight: 800;
   font-size: 50px;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   line-height: 38px;
   width: 317px;
   height: 48px;
@@ -51,7 +51,7 @@ input {
   height: 40px;
   padding-left: 7px;
   color: #969696;
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 100;
@@ -68,7 +68,7 @@ input {
   height: 38.5px;
   width: 168px;
   gap: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -111,7 +111,6 @@ input {
 }
 
 .profile {
-  margin-left: 0px;
   height: 60px;
   margin-top: -22px;
 }
@@ -180,7 +179,7 @@ input {
   font-weight: 50;
   font-size: 10px;
   line-height: 14px;
-  color: #ffffff;
+  color: #fff;
 }
 /* stylelint-enable */
 
@@ -191,7 +190,7 @@ input {
   font-weight: 200;
   font-size: 13px;
   line-height: 16px;
-  color: #ffffff;
+  color: #fff;
 }
 /* stylelint-enable */
 
@@ -214,7 +213,7 @@ input {
 }
 
 .left-container h3 {
-  color: #000000;
+  color: #000;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -329,7 +328,7 @@ input {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .select-width p {
@@ -348,7 +347,7 @@ input {
   font-size: 1rem;
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .add-cart button {
