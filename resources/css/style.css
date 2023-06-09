@@ -155,7 +155,7 @@ input {
 
 .contact {
   grid-template-columns: repeat(2,1fr);
- }
+}
 
 .contact_pic {
   display: grid;
@@ -214,7 +214,7 @@ input {
 }
 
 .left-container h3 {
-  color: #000;
+  color: #000000;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -329,7 +329,7 @@ input {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .select-width p {
@@ -348,7 +348,7 @@ input {
   font-size: 1rem;
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .add-cart button {
