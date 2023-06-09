@@ -447,7 +447,10 @@ input {
   margin-left: 40vw;
 }
 
-.social-icons .fa-facebook, .fa-square-whatsapp, .fa-square-instagram, .fa-youtube {
+.social-icons .fa-facebook,
+.fa-square-whatsapp,
+.fa-square-instagram,
+.fa-youtube {
   width: 50px;
   color: #9b9b9b;
 }
