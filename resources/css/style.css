@@ -167,7 +167,6 @@ input {
 .contact_info {
   display: grid;
   margin-left: 1080px;
-  height: fit-content;
   width: fit-content;
   margin-top: -28px;
 }
