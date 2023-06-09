@@ -6,36 +6,13 @@
 /* --Start of header style-- */
 .main {
   width: 100vw;
+  padding: 20px;
+  background-color: #000000;
 }
-
-.pre_nav {
-  text-align: right;
-  margin-right: 10px;
-}
-
-.pre_nav ul li {
-  list-style: none;
-  display: inline-block;
-}
-
-/* stylelint-disable */
-.pre_nav a {
-  text-decoration: none;
-  color: #000;
-  width: 91px;
-  height: 20px;
-  margin-left: 10px;
-  font-family: 'roboto';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 20px;
-}
-/* stylelint-enable */
 
 .base {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   padding-left: 10px;
   margin: 10px;
@@ -47,6 +24,7 @@ h1 {
   font-weight: 800;
   font-size: 50px;
   font-style: normal;
+  color: #ffffff;
   line-height: 38px;
   width: 317px;
   height: 48px;
@@ -60,6 +38,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 4px;
+  margin-top: -10px;
   margin-left: 0;
   height: 56px;
   width: 625px;
@@ -71,6 +50,7 @@ input {
   height: 40px;
   padding-left: 7px;
   color: #969696;
+  background-color: #ffffff;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 100;
@@ -87,6 +67,7 @@ input {
   height: 38.5px;
   width: 168px;
   gap: 10px;
+  background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -107,23 +88,39 @@ input {
 /* stylelint-enable */
 
 .base-img_1 {
-  border-radius: 3px;
-  margin-top: 2px;
-  height: 35px;
-  width: 35px;
-  background-color: #6a1c0b;
+  border-radius: 5px;
+  margin: 1px;
+  height: 30px;
+  width: 30px;
 }
 
-.pic_1 {
+.search {
+  border-radius: 3px;
   width: 15px;
   height: 17px;
   padding: 10px;
+  background-color: #6a1c0b;
 }
 
-.pic_2 {
-  width: 25px;
-  height: 25px;
-  margin-top: 10px;
+.cart {
+  width: 35px;
+  height: 35px;
+  margin-top: -8px;
+  margin-left: -15px;
+}
+
+.profile {
+  margin-left: 0px;
+  height: 60px;
+  margin-top: -22px;
+}
+
+.profile_pic {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border-radius: 20px;
 }
 
 .dashboard {
@@ -140,13 +137,13 @@ input {
 /* stylelint-disable */
 .categories ul li {
   display: inline-block;
-  margin-right: 54px;
+  margin-right: 34px;
   margin-top: 25px;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
 }
 /* stylelint-enable */
 
@@ -155,32 +152,47 @@ input {
   text-decoration: none;
 }
 
-.profile {
-  margin-left: 950px;
-  height: 60px;
-  margin-top: -25px;
+.contact {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.contact_pic {
+  display: grid;
+  margin-top: -30px;
+  width: 25px;
+  height: 25px;
+  margin-left: 1040px;
+}
+
+.contact_info {
+  display: grid;
+  margin-left: 1080px;
+  height: fit-content;
+  width: fit-content;
+  margin-top: -28px;
 }
 
 /* stylelint-disable */
-.profile_name {
-  margin-right: 75px;
+.contact_info_1 {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 50px;
+  font-weight: 50;
+  font-size: 10px;
+  line-height: 14px;
+  color: #ffffff;
 }
 /* stylelint-enable */
 
-.profile_pic {
-  float: right;
-  margin-right: 80px;
-  margin-top: -40px;
-  width: 50px;
-  height: 50px;
-  border-radius: 20px;
+/* stylelint-disable */
+.contact_info_2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
 }
+/* stylelint-enable */
 
 /* Mobile styles */
 @media (max-width: 767px) {
@@ -303,7 +315,7 @@ input {
 }
 
 .left-container h3 {
-  color: #000;
+  color: #000000;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -418,7 +430,7 @@ input {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .select-width p {
@@ -437,7 +449,7 @@ input {
   font-size: 1rem;
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .add-cart button {
@@ -534,118 +546,72 @@ input {
   font-size: 8px;
 }
 
+.brands {
+  padding: 10px;
+}
+
+.brands img {
+  width: 100vw;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 40vw;
+}
+
+.social-icons .fa-facebook,
+.fa-square-whatsapp,
+.fa-square-instagram,
+.fa-youtube {
+  width: 50px;
+  color: #9b9b9b;
+}
+
+.social-icons .fa-cc-visa {
+  width: 50px;
+  color: #337abb;
+}
+
+.social-icons .fa-cc-mastercard {
+  width: 50px;
+  color: #f69f32;
+}
+
+.social-icons .fa-paypal {
+  width: 50px;
+  color: #3393c0;
+}
+
+.social-icons .fa-cc-amex {
+  width: 50px;
+  color: #3378ba;
+}
+
 footer {
-  background-color: gray;
-}
-
-.newsletter {
-  position: relative;
-  display: flex;
-  margin: 20px;
+  background-color: #545454;
   padding: 20px;
 }
 
-.newsletter-txt h1 {
-  position: relative;
-  color: white;
-  bottom: 16px;
-  font-size: 28px;
-}
-
-.newsletter-txt img {
-  position: relative;
-  height: 25px;
-  width: 25px;
-  margin: 10px;
-  top: 20px;
-  right: 13px;
-}
-
-.newsletter-txt p {
-  color: white;
-  position: relative;
-  left: 3rem;
-  bottom: 18px;
-}
-
-.newsletter-input {
-  position: relative;
+.footer-items {
   display: flex;
-  left: 15rem;
-  height: 35px;
-}
-
-.newsletter-input input {
-  background-color: rgb(255, 255, 255);
-  font-size: 25px;
-  border: none;
-}
-
-.newsletter-input input::placeholder {
-  position: relative;
-  font-size: 12px;
   padding: 20px;
-  bottom: 3px;
-}
-
-.newsletter-input button {
-  background-color: #6a1c0b;
-  color: white;
-  font-size: 10px;
-  padding: 10px;
-  border: none;
-}
-
-.socials h4 {
-  position: relative;
-  color: white;
-  font-size: 23px;
-  bottom: 30px;
-  left: 12px;
-}
-
-.socials p {
-  position: relative;
-  font-size: 10px;
-  bottom: 10px;
-  left: 16px;
+  justify-content: space-evenly;
   color: white;
 }
 
-.socials-contact {
-  position: relative;
-  display: flex;
-  margin: 20px;
+.items h4 {
+  margin-bottom: 10px;
 }
 
-.contact {
-  position: relative;
-  left: 45rem;
-  bottom: 29px;
+.items p {
+  font-size: 15px;
+  font-weight: 300;
 }
 
-.contact h4 {
+.copyright {
+  text-align: center;
   color: white;
-  font-size: 18px;
-}
-
-.contact h5 {
-  color: white;
-  font-size: 10px;
-  padding: 10px;
-}
-
-.contact h6 {
-  color: white;
-  font-size: 10px;
-  padding: 10px;
-}
-
-.copyright p {
-  position: relative;
-  color: white;
-  bottom: 50px;
-  left: 33rem;
   font-size: 10px;
 }
 
