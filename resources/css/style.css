@@ -442,6 +442,83 @@ input {
    position: absolute;
 }
 
+.see2 {
+  padding-left: 80px;
+  padding-top: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  position: absolute;
+  margin-bottom: 5px;
+}
+
+.seee {
+  display: flex;
+  padding-top: 180px;
+  padding-left: 70px;
+  position: relative;
+}
+
+.simi-img {
+  width: 5%;
+  min-width: 150px;
+  padding: 5px 5px;
+  border: .1px solid rgb(128, 128, 128, 0.054);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+  position: relative;
+  top: 100px;
+}
+
+.similar-img img{
+  width: 100px;
+}
+
+.fa-chevron-left {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 5px;
+  top: 230px;
+  margin-left: -10px;
+}
+
+.des-simi {
+  text-align: start;
+  margin: 5px;
+  position: relative;
+}
+
+.tdx {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  font-family: 'Inter';
+  color: #667085;
+}
+
+.img-price img {
+  left: 6.5;
+  right: 86%;
+  top: 72.02%;
+  bottom: 22.2%;
+  width: 8px;
+}
+
+.img-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+
 /* .about h2 {
   position: relative;
   font-size: 19px;
@@ -473,7 +550,7 @@ input {
   font-size: 13px;
 } */
 
-.similar-items {
+/* .similar-items {
   position: relative;
   left: 5rem;
   margin-bottom: 10rem;
@@ -512,7 +589,7 @@ input {
 .alt p {
   color: #98a2b3;
   font-size: 8px;
-}
+} */
 /* section two ends here */
 .brands {
   padding: 10px;
