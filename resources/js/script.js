@@ -44,7 +44,7 @@ function changeGridBtxt(colorId) {
   const color = document.getElementById('color');
 
   if (colorId === 1) {
-    color.innerHTML = '<b>Colour:</b>Nimbus cloud with white';
+    color.innerHTML = '<b>Colour:</b> Nimbus cloud with white';
   } else if (colorId === 2) {
     color.innerHTML = '<b>Colour:</b> Black and white';
   } else if (colorId === 3) {
