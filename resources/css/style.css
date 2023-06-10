@@ -355,7 +355,7 @@ input {
 .section-2 {
   position: relative;
   height: 100vh;
-  top: 100px;
+  top: 50px;
 }
 
 .desp-head {
@@ -443,7 +443,7 @@ input {
 }
 
 .see2 {
-  padding-left: 80px;
+  padding-left: 10px;
   padding-top: 150px;
   font-style: normal;
   font-weight: 700;
@@ -455,8 +455,8 @@ input {
 
 .seee {
   display: flex;
-  padding-top: 180px;
-  padding-left: 70px;
+  padding-top: 100px;
+  padding-left: 1px;
   position: relative;
 }
 
@@ -473,7 +473,7 @@ input {
 }
 
 .similar-img img{
-  width: 100px;
+  width: 150px;
 }
 
 .fa-chevron-left {
@@ -483,7 +483,7 @@ input {
   border: 1px solid rgba(128, 128, 128, 0.323);
   border-radius: 50%;
   padding: 5px;
-  top: 230px;
+  top: 60px;
   margin-left: -10px;
 }
 
@@ -517,6 +517,14 @@ input {
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
+}
+
+.types {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
 }
 
 /* .about h2 {
