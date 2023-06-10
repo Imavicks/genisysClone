@@ -6,39 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Prototype</title>
     <link rel="stylesheet" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--ICONS-->
+    <script src="https://kit.fontawesome.com/937e5bb93a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="main">
-        <div class="links">
-            <a href="#">Order Status</a>
-            <a href="#">Return Order</a>
-            <a href="#">Delivery</a>
-            <a href="#">Help</a>
+        <!-- Pre navigation menu -->
+        <div class="pre_nav">
+            <ul>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Return Order</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
         </div>
         <div class="base">
-            <div class="base-txt">
-                <h1>KICKIN' IT</h1>
+            <h1>KICKIN' IT</h1>
+            <div class="base-search">
+                <input type="search" placeholder="Search Product">
+                <div class="base-sel">
+                    <select name="" id="sel_1"><option value="">All Categories</option></select>
+                    <div class="base-img_1">
+                        <img src="resources/assets/icons8-search-50.png" class="pic_1">
+                    </div>
+                </div>
             </div>
-            <div class="base-input">
-                <input type="search" placeholder="Search Product"><button type="button">All Categories</button><img src="resources/assets/icons8-search-50.png">
+            <div class="base-img_2">
+                <img src="resources/assets/shopping-cart-20392.png" alt="cart" class="pic_2">
             </div>
-            <div class="base-img">
-                <img src="resources/assets/shopping-cart-20392.png">
+        </div>
+        <!-- Main navigation menu -->
+        <div class="dashboard">
+            <div class="categories">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <p class="profile_name"> Hi Victor!</p>
+                <a href="#"><img src="resources/assets/profile_pic.png" alt="Profile Picture" class="profile_pic"></a>
             </div>
         </div>
     </header>
-    <header class="menu">
-        <div class="categories">
-            <p>All Categories</p>
-        </div>
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Location</a>
-        <h5>Hi Victor!</h5><img src="resources/assets/pp.jpg">
-    </header>
+    <!--End of header-->
     <div class="directory">
         <a href="#">Home</a>
         <a href="#">All Categories</a>
@@ -51,16 +69,23 @@
             <h3><b>New Balance 574 Core</b></h3>
             <div class="gridA">
                 <img src="resources/assets/white 15.jpg" alt="" id="grid1">
-                <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src)">
-                <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src)">
-                <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src)">
+                <div class="shoe-part">
+                    <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src)">
+                    <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src)">
+                    <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src)">
+                </div>
+
             </div>
         </div>
         <div class="right-container">
             <div class="grid-selection">
-                <h3>N31,500 <span>50%</span><img src="resources/assets/rating.jpg"></h3>
-                <h4>N63000</h4>
-                <p id="color">colour: Nimbus cloud with white</p>
+                <div class="shoe-detail">
+                    <h3><b>&#8358;31,500</b></h3>
+                    <span>50%</span>
+                    <img src="resources/assets/rating.jpg">
+                </div>
+                <h4>&#8358;63000</h4>
+                <p id="color"><b>Colour:</b>Nimbus cloud with white</p>
                 <div class="gridB">
                     <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1)">
                     <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2)">
@@ -70,14 +95,14 @@
             </div>
             <div class="btn-selection">
                 <div class="select-size">
-                    <p>Select size</p>
+                    <p><b>Select size</b></p>
                     <button type="button">5</button>
                     <button type="button">5.5</button>
                     <button type="button">6</button>
                     <button type="button">6.5</button>
                 </div>
                 <div class="select-width">
-                    <p>Select width</p>
+                    <p><b>Select width</b></p>
                     <button type="button">Standard</button>
                     <button type="button">Wide</button>
                 </div>
@@ -146,30 +171,46 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="newsletter">
-            <div class="newsletter-txt">
-                <h1><img src="resources/assets/Vector.png">Join our newsletter and get offers</h1>
-                <p>Sign up our newsletter</p>
-            </div>
-            <div class="newsletter-input">
-                <input type="email" placeholder="Enter your email"><button type="button">SUBSCRIBE</button>
-            </div>
+
+    <section id="brand1">
+        <div class="brands">
+            <img src="./resources/assets/brands.png" alt="">
         </div>
-        <div class="socials-contact">
-            <div class="socials">
-                <h4>Socials</h4>
-                <p>Follow us on our social media platforms</p>
+        <div class="social-icons">
+            <div><i class="fa-brands fa-facebook"></i></div>
+            <div><i class="fa-brands fa-square-whatsapp"></i></div>
+            <div><i class="fa-brands fa-square-instagram"></i></div>
+            <div><i class="fa-brands fa-youtube"></i></div>
+            <div><i class="fa-brands fa-cc-visa"></i></div>
+            <div><i class="fa-brands fa-cc-mastercard"></i></div>
+            <div><i class="fa-brands fa-paypal"></i></div>
+            <div><i class="fa-brands fa-cc-amex"></i></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-items">
+            <div class="items">
+                <h4>HELP & INFORMATION</h4>
+                <p>Help</p>
+                <p>Delivery & returns</p>
+                <p>Track Order</p>
             </div>
-            <div class="contact">
-                <h4>CONTACT US</h4>
-                <h5>If you have any query, please contact us<br><span>SOW@gmail.com</span></h5>
-                <h6>Lagos, Nigeria</h6>
-                <h6>+23481234567</h6>
+            <div class="items">
+                <h4>ABOUT KICKIN' IT</h4>
+                <p>About</p>
+                <p>Careers</p>
+                <p>Corporate Responsibility</p>
+            </div>
+            <div class="items">
+                <h4>MORE FROM KICKIN' IT</h4>
+                <p>Mobile</p>
+                <p>Market place</p>
+                <p>Gift voucher</p>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy Copyright SOW 2023.All Right Reserved</p>
+            <p>Copyright SOW 2023. All Right Reserved</p>
         </div>
     </footer>
     <script src="resources/js/script.js"></script>

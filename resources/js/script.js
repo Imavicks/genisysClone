@@ -46,13 +46,13 @@ function changeGridBtxt(colorId) {
   const color = document.getElementById('color');
 
   if (colorId === 1) {
-    color.textContent = 'Colour: Nimbus cloud with white';
+    color.innerHTML = '<b>Colour:</b>Nimbus cloud with white';
   } else if (colorId === 2) {
-    color.textContent = 'Colour: Black and white';
+    color.innerHTML = '<b>Colour:</b> Black and white';
   } else if (colorId === 3) {
-    color.textContent = 'Colour: Burgundy with white';
+    color.innerHTML = '<b>Colour:</b> Burgundy with white';
   } else if (colorId === 4) {
-    color.textContent = 'Colour: Navy with white';
+    color.innerHTML = '<b>Colour:</b> Navy with white';
   } else {
     color.textContent = '';
   }
