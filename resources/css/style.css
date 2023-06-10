@@ -196,17 +196,19 @@ input {
 }
 
 .sect1 {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 7rem 0 0 7vw;
   flex-wrap: wrap;
 }
 
 .left-container h3 {
   color: #000;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  margin-left: 1vw;
 }
 
 .shoe-part {
@@ -221,30 +223,29 @@ input {
 }
 
 #grid1 {
-  width: 38vw;
+  width: 30vw;
   margin-top: 2vw;
 }
 
 #grid2 {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 #grid3 {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   margin-left: 1.6rem;
 }
 
 #grid4 {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   margin-left: 1.6rem;
 }
 
 .right-container {
-  margin-top: 5.5vw;
-  margin-left: 5vw;
+  margin: 5.5vw 0 0 2vw;
 }
 
 .shoe-detail {
