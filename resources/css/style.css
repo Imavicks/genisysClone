@@ -373,6 +373,8 @@ input {
   font-weight: 600;
   font-style: normal;
   line-height: 28px;
+  font-family: 'Montserrat';
+  color: #191919;
 }
 
 .pp:hover h2 {
@@ -383,17 +385,44 @@ input {
   border-bottom: 2px solid red;
 }
 
-.about {
+.description {
   position: relative;
-  display: flex;
+  padding-left: 150px;
 }
 
-.about h2 {
+.descrip-1 {
+  padding-bottom: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.desp-h4 {
+  position: absolute;
+  font-size: 24px;
+  color: #000000;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: 500;
+  padding-top: 10px;
+  font-family: 'Montserrat';
+}
+
+.desp-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-top: 30px;
+  position: absolute;
+  font-family: 'Montserrat';
+}
+
+/* .about h2 {
   position: relative;
   font-size: 19px;
   margin: 25px;
   left: 18rem;
-}
+} */
 
 .about-text {
   position: relative;
