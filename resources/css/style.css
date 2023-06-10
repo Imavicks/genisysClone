@@ -352,6 +352,7 @@ input {
   font-size: 1rem;
 }
 /* section two starts here */
+
 .section-2 {
   position: relative;
   height: 100vh;
@@ -382,7 +383,7 @@ input {
 }
 
 .ppl h2 {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #E73C17;
 }
 
 .description {
@@ -423,17 +424,17 @@ input {
   font-weight: 600;
   padding-bottom: 25px;
   line-height: 28px;
-  padding-top: 50px;
+  padding-top: 65px;
   position: relative;
   font-family: 'Montserrat';
 }
 
-.label p {
+.label h5 {
   position: absolute;
 }
 
 .label-li {
-   padding-left: 20px;
+   padding-left: 30px;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -443,20 +444,22 @@ input {
 }
 
 .see2 {
-  padding-left: 10px;
-  padding-top: 150px;
+  padding-left: 60px;
+  padding-top: 170px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
   position: absolute;
   margin-bottom: 5px;
+  color: #344054;
+  font-family: 'Inter';
 }
 
 .seee {
   display: flex;
   padding-top: 100px;
-  padding-left: 1px;
+  padding-left: 60px;
   position: relative;
 }
 
@@ -473,7 +476,7 @@ input {
 }
 
 .similar-img img{
-  width: 150px;
+  width: 100px;
 }
 
 .fa-chevron-left {
@@ -482,7 +485,7 @@ input {
   color: rgba(0, 0, 0, 0.472);
   border: 1px solid rgba(128, 128, 128, 0.323);
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   top: 60px;
   margin-left: -10px;
 }
@@ -517,6 +520,7 @@ input {
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
+  font-family: 'Montserrat';
 }
 
 .types {
@@ -525,79 +529,34 @@ input {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 5px;
+  font-family: 'Inter';
 }
 
-/* .about h2 {
-  position: relative;
-  font-size: 19px;
-  margin: 25px;
-  left: 18rem;
-} */
-
-/* .about-text {
-  position: relative;
-  left: 12rem;
-  margin-bottom: 50px;
+.light {
+  color: #FDB022;
 }
 
-.about-text h1 {
-  font-size: 18px;
+.number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 5px;
+  position: absolute;
 }
 
-.about-text h2 {
-  font-size: 12px;
-  margin-bottom: 35px;
+.fa-chevron-right {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid  rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 3px;
+  top: 60px;
+  margin-left: 90px;
 }
 
-.about-text h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.about-text p {
-  font-size: 13px;
-} */
-
-/* .similar-items {
-  position: relative;
-  left: 5rem;
-  margin-bottom: 10rem;
-}
-
-.similar-items h2 {
-  color: #344054;
-  font-size: 21px;
-}
-
-.similarItemsGrid {
-  position: relative;
-  display: flex;
-  margin: 10px;
-}
-
-.alt img {
-  margin: 4px;
-  height: 17vh;
-  width: 10vw;
-  border-radius: 8px;
-  background-color: #9b9b9b23;
-}
-
-.alt h6 {
-  color: #667085;
-  font-size: 10px;
-}
-
-.alt h4 {
-  font-size: 16px;
-  margin-top: 3px;
-  margin-bottom: 4px;
-}
-
-.alt p {
-  color: #98a2b3;
-  font-size: 8px;
-} */
 /* section two ends here */
 .brands {
   padding: 10px;
