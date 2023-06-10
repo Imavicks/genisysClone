@@ -351,7 +351,7 @@ input {
   font-weight: 600;
   font-size: 1rem;
 }
-
+/* section two starts here */
 .sect2 {
   position: relative;
 }
@@ -432,7 +432,7 @@ input {
   color: #98a2b3;
   font-size: 8px;
 }
-
+/* section two ends here */
 .brands {
   padding: 10px;
 }
