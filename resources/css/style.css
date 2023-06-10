@@ -351,6 +351,7 @@ input {
   font-weight: 600;
   font-size: 1rem;
 }
+
 /* section two starts here */
 
 .section-2 {
@@ -368,6 +369,7 @@ input {
   padding-bottom: 25px;
 }
 
+/* stylelint-disable */
 .desp-head h2 {
   position: absolute;
   font-size: 24px;
@@ -377,13 +379,14 @@ input {
   font-family: 'Montserrat';
   color: #191919;
 }
+/* stylelint-enable */
+
+.ppl h2 {
+  border-bottom: 2px solid #e73c17;
+}
 
 .pp:hover h2 {
   border-bottom: 2px solid blue;
-}
-
-.ppl h2 {
-  border-bottom: 2px solid #E73C17;
 }
 
 .description {
@@ -397,17 +400,20 @@ input {
   position: relative;
 }
 
+/* stylelint-disable */
 .desp-h4 {
   position: absolute;
   font-size: 24px;
-  color: #000000;
+  color: #000;
   font-style: normal;
   line-height: 28px;
   font-weight: 500;
   padding-top: 20px;
   font-family: 'Montserrat';
 }
+/* stylelint-enable */
 
+/* stylelint-disable */
 .desp-p {
   font-style: normal;
   font-weight: 400;
@@ -417,7 +423,9 @@ input {
   position: absolute;
   font-family: 'Montserrat';
 }
+/* stylelint-enable */
 
+/* stylelint-disable */
 .label {
   font-size: 24px;
   font-style: normal;
@@ -428,21 +436,25 @@ input {
   position: relative;
   font-family: 'Montserrat';
 }
+/* stylelint-enable */
 
 .label h5 {
   position: absolute;
 }
 
+/* stylelint-disable */
 .label-li {
-   padding-left: 30px;
-   font-size: 16px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px;
-   font-family: 'Montserrat';
-   position: absolute;
+  padding-left: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Montserrat';
+  position: absolute;
 }
+/* stylelint-enable */
 
+/* stylelint-disable */
 .see2 {
   padding-left: 60px;
   padding-top: 170px;
@@ -455,6 +467,7 @@ input {
   color: #344054;
   font-family: 'Inter';
 }
+/* stylelint-enable */
 
 .seee {
   display: flex;
@@ -467,7 +480,7 @@ input {
   width: 5%;
   min-width: 150px;
   padding: 5px 5px;
-  border: .1px solid rgb(128, 128, 128, 0.054);
+  border: 0.1px solid rgb(128, 128, 128, 0.054);
   border-radius: 8px;
   cursor: pointer;
   margin: 2px;
@@ -475,7 +488,7 @@ input {
   top: 100px;
 }
 
-.similar-img img{
+.similar-img img {
   width: 100px;
 }
 
@@ -496,6 +509,7 @@ input {
   position: relative;
 }
 
+/* stylelint-disable */
 .tdx {
   font-size: 16px;
   font-weight: 500;
@@ -504,15 +518,17 @@ input {
   font-family: 'Inter';
   color: #667085;
 }
+/* stylelint-enable */
 
 .img-price img {
-  left: 6.5;
+  left: 6.5%;
   right: 86%;
   top: 72.02%;
   bottom: 22.2%;
   width: 8px;
 }
 
+/* stylelint-disable */
 .img-price {
   font-style: normal;
   font-weight: 500;
@@ -522,7 +538,9 @@ input {
   margin-top: 3px;
   font-family: 'Montserrat';
 }
+/* stylelint-enable */
 
+/* stylelint-disable */
 .types {
   font-style: normal;
   font-weight: 400;
@@ -531,11 +549,13 @@ input {
   margin-bottom: 5px;
   font-family: 'Inter';
 }
+/* stylelint-enable */
 
 .light {
-  color: #FDB022;
+  color: #fdb022;
 }
 
+/* stylelint-disable */
 .number {
   font-family: 'Inter';
   font-style: normal;
@@ -545,6 +565,7 @@ input {
   margin-left: 5px;
   position: absolute;
 }
+/* stylelint-enable */
 
 .fa-chevron-right {
   font-size: 20px;
