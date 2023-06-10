@@ -352,8 +352,35 @@ input {
   font-size: 1rem;
 }
 /* section two starts here */
-.sect2 {
+.section-2 {
   position: relative;
+  height: 100vh;
+  top: 100px;
+}
+
+.desp-head {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.desp-head h2 {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.pp:hover h2 {
+  border-bottom: 2px solid blue;
+}
+
+.ppl h2 {
+  border-bottom: 2px solid red;
 }
 
 .about {
