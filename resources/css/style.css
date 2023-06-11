@@ -6,7 +6,7 @@
 /* --Start of header style-- */
 .main {
   width: 100vw;
-  padding: 20px;
+  padding: 15px;
   background-color: #000;
 }
 
@@ -29,7 +29,6 @@ h1 {
   width: 317px;
   height: 48px;
   margin-top: -10px;
-  margin-left: 26px;
   font-family: 'Montserrat';
 }
 /* stylelint-enable */
@@ -98,7 +97,7 @@ input {
   border-radius: 3px;
   width: 15px;
   height: 17px;
-  padding: 10px;
+  padding: 9px;
   background-color: #6a1c0b;
 }
 
