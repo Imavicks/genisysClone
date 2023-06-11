@@ -225,14 +225,13 @@ input {
 .shoe-part {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1vw;
 }
 
 .gridA img {
   border-radius: 8px;
   cursor: pointer;
   width: 35vw;
-  margin-top: 2vw;
+  margin-top: 0.5vw;
 }
 
 #grid2 {
@@ -255,7 +254,7 @@ input {
 .right-container {
   margin-left: 1vw;
   position: relative;
-  bottom: 17vw;
+  bottom: 14vw;
 }
 
 .shoe-detail {
@@ -374,9 +373,9 @@ input {
   top: 5.2vw;
 }
 
-.love-icon{
+.love-icon {
   position: relative;
-  top: 5vw;
+  top: 6vw;
   left: 13vw;
 }
 
