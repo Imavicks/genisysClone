@@ -456,7 +456,7 @@ input {
 /* stylelint-disable */
 .label-li {
   padding-left: 30px;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -564,6 +564,10 @@ input {
 
 .light {
   color: #fdb022;
+}
+
+.fa-star-half-o {
+  color: orange;
 }
 
 /* stylelint-disable */
