@@ -566,6 +566,10 @@ input {
   color: #fdb022;
 }
 
+.fa-star-half-o {
+  color: orange;
+}
+
 /* stylelint-disable */
 .number {
   font-family: 'Inter';
