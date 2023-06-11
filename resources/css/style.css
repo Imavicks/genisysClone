@@ -207,9 +207,10 @@ input {
 
 .sect1 {
   width: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   margin: 7rem 0 0 7vw;
   flex-wrap: wrap;
 }
@@ -230,10 +231,7 @@ input {
 .gridA img {
   border-radius: 8px;
   cursor: pointer;
-}
-
-#grid1 {
-  width: 30vw;
+  width: 35vw;
   margin-top: 2vw;
 }
 
@@ -255,11 +253,14 @@ input {
 }
 
 .right-container {
-  margin: 5.5vw 0 0 2vw;
+  margin-left: 1vw;
+  position: relative;
+  bottom: 17vw;
 }
 
 .shoe-detail {
   display: flex;
+  margin-bottom: 3vw;
 }
 
 .shoe-detail h3 {
@@ -288,18 +289,21 @@ input {
   text-decoration: line-through;
   font-size: 1rem;
   color: rgba(155, 155, 155, 1);
+  opacity: 0.7;
+  position: relative;
+  bottom: 3vw;
 }
 
 .grid-selection p {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  margin-top: 0.5rem;
+  position: relative;
+  bottom: 2vw;
 }
 
 .gridB {
   display: flex;
-  margin-top: 4.8rem;
 }
 
 .gridB img {
@@ -311,24 +315,26 @@ input {
 }
 
 .select-size p {
-  margin-top: 4rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-left: 0.5vw;
+  position: relative;
+  top: 2vw;
 }
 
 .select-size button {
   box-sizing: border-box;
   border: 1px solid #9b9b9b;
-  width: 10.2vw;
-  height: 3.5rem;
+  width: 8vw;
+  height: 3rem;
   margin: 0.5vw;
-  margin-top: 0.7rem;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   background-color: #fff;
+  position: relative;
+  top: 2vw;
 }
 
 .select-width p {
@@ -337,30 +343,41 @@ input {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-left: 0.5vw;
+  position: relative;
+  top: 2vw;
 }
 
 .select-width button {
-  width: 10.2vw;
-  height: 3.5rem;
+  width: 9vw;
+  height: 6vh;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
+  position: relative;
+  top: 2vw;
 }
 
 .add-cart button {
   color: white;
-  width: 18.6rem;
-  height: 3.75rem;
+  width: 17rem;
+  height: 3rem;
   background-color: rgba(106, 28, 11, 1);
   border-radius: 5px;
   border: none;
-  margin-top: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  position: relative;
+  top: 5.2vw;
+}
+
+.love-icon{
+  position: relative;
+  top: 5vw;
+  left: 13vw;
 }
 
 /* section two starts here */
