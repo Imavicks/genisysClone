@@ -22,13 +22,13 @@
 /* stylelint-disable */
 h1 {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 30px;
   font-style: normal;
   color: #ffffff;
   line-height: 38px;
   width: 317px;
   height: 48px;
-  margin-top: -10px;
+  margin-top: 9px;
   font-family: 'Montserrat';
 }
 /* stylelint-enable */
@@ -37,8 +37,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 4px;
-  margin-top: -10px;
-  margin-left: 0;
+  margin-top: 3px;
+  margin-left: -60px;
   height: 56px;
   width: 625px;
 }
@@ -46,7 +46,7 @@ h1 {
 /* stylelint-disable */
 input {
   width: 380px;
-  height: 40px;
+  height: 45px;
   padding-left: 7px;
   color: #969696;
   background-color: #fff;
@@ -63,7 +63,7 @@ input {
 .base-sel {
   border: 1px solid grey;
   border-radius: 0 3px 3px 0;
-  height: 38.5px;
+  height: 44px;
   width: 168px;
   gap: 10px;
   background-color: #fff;
@@ -88,24 +88,28 @@ input {
 
 .base-img_1 {
   border-radius: 5px;
-  margin: 1px;
+  margin-top: 3px;
   height: 30px;
   width: 30px;
 }
 
 .search {
   border-radius: 3px;
-  width: 15px;
-  height: 17px;
+  width: 17px;
+  height: 19px;
   padding: 9.5px;
   background-color: #6a1c0b;
 }
 
+.base-img_2 {
+  margin-right: -1000px;
+}
+
 .cart {
-  width: 35px;
+  width: 40px;
   height: 35px;
-  margin-top: -8px;
-  margin-left: -15px;
+  margin-top: 7px;
+  margin-left: 50px;
 }
 
 .profile {
@@ -115,10 +119,10 @@ input {
 }
 
 .profile_pic {
-  margin-top: 15px;
+  margin-top: 30px;
   width: 40px;
   height: 40px;
-  margin-left: -20px;
+  margin-left: 15px;
   border-radius: 20px;
 }
 
@@ -141,7 +145,7 @@ input {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
 }
 /* stylelint-enable */
@@ -160,12 +164,12 @@ input {
   margin-top: -30px;
   width: 25px;
   height: 25px;
-  margin-left: 1040px;
+  margin-left: 1030px;
 }
 
 .contact_info {
   display: grid;
-  margin-left: 1080px;
+  margin-left: 1070px;
   width: fit-content;
   margin-top: -28px;
 }
@@ -174,9 +178,9 @@ input {
 .contact_info_1 {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 50;
-  font-size: 10px;
-  line-height: 14px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
   color: #ffffff;
 }
 /* stylelint-enable */
@@ -185,9 +189,10 @@ input {
 .contact_info_2 {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 20px;
+  margin-left: -10px;
   color: #ffffff;
 }
 /* stylelint-enable */
