@@ -22,9 +22,7 @@ function changeGridA(imageNumber) {
   }
 
   // Set grid A images to the imageSet if condition matches
-  /* eslint-disable */
-  for (let i = 0; i < imageSet.length; i++) {
-  /* eslint-enable */
+  for (let i = 0; i < imageSet.length; i += 1) {
     if (i < gridAImages.length) {
       gridAImages[i].src = imageSet[i];
     }
@@ -46,7 +44,7 @@ function changeGridBtxt(colorId) {
   const color = document.getElementById('color');
 
   if (colorId === 1) {
-    color.innerHTML = '<b>Colour:</b>Nimbus cloud with white';
+    color.innerHTML = '<b>Colour:</b> Nimbus cloud with white';
   } else if (colorId === 2) {
     color.innerHTML = '<b>Colour:</b> Black and white';
   } else if (colorId === 3) {
