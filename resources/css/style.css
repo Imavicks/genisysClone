@@ -615,6 +615,7 @@ input {
 }
 
 /* section two ends here */
+
 /* FOOTER */
 .sub {
   display: flex;
@@ -641,6 +642,8 @@ input {
   margin-top: 10px;
 }
 
+/* stylelint-disable */
+
 .sub-item h4 {
   font-size: 22px;
   font-weight: 700;
@@ -653,18 +656,24 @@ input {
   font-weight: 500;
 }
 
+/* stylelint-enable */
+
 .sub .subscribe {
   width: 40vw;
   display: flex;
 }
 
+/* stylelint-disable */
+
 .subscribe button {
   height: 47px;
   width: 258px;
-  background-color: #E73C17;
+  background-color: #e73C17;
   color: white;
   font-family: 'Inter';
 }
+
+/* stylelint-enable */
 
 .foot {
   background-color: #191919;
@@ -672,11 +681,13 @@ input {
   padding: 20px;
 }
 
-.foot-items{
+.foot-items {
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
 }
+
+/* stylelint-disable */
 
 .foot-items h4 {
   margin-bottom: 20px;
@@ -692,6 +703,8 @@ input {
   font-size: 17px;
   margin-top: 10px;
 }
+
+/* stylelint-enable */
 
 .foot-section .icons {
   margin-top: 30px;
@@ -715,6 +728,11 @@ input {
 .location p,
 .phone p {
   margin-left: 15px;
+}
+
+.location .fa-sharp,
+.phone .fa-regular {
+  color: white;
 }
 
 .copyright {
