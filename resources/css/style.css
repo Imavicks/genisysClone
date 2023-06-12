@@ -615,73 +615,115 @@ input {
 }
 
 /* section two ends here */
-.brands {
-  padding: 10px;
+/* FOOTER */
+.sub {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin-top: 40px;
+  background-color: #191919;
+  color: white;
+  background-image: url(/genisysClone/resources/assets/sub.jpeg);
+  opacity: 1;
 }
 
-.brands img {
+.sub .sub-item {
+  width: 40vw;
+  display: flex;
+}
+
+.sub-item img {
+  width: 4vw;
+  height: 4vw;
+}
+
+.sub-item .sub-writeup {
+  margin-top: 10px;
+}
+
+.sub-item h4 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Inter';
+}
+
+.sub-item h6 {
+  font-size: 15px;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.sub .subscribe {
+  width: 40vw;
+  display: flex;
+}
+
+.subscribe button {
+  height: 47px;
+  width: 258px;
+  background-color: #E73C17;
+  color: white;
+  font-family: 'Inter';
+}
+
+.foot {
+  background-color: #191919;
+  color: white;
+  padding: 20px;
+}
+
+.foot-items{
+  display: flex;
+  justify-content: space-evenly;
   width: 100vw;
 }
 
-.social-icons {
-  display: flex;
-  align-items: center;
-  margin-left: 40vw;
+.foot-items h4 {
+  margin-bottom: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
 }
 
-.social-icons .fa-facebook,
-.fa-square-whatsapp,
-.fa-square-instagram,
-.fa-youtube {
-  width: 50px;
-  color: #9b9b9b;
+.foot-items p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 10px;
 }
 
-.social-icons .fa-cc-visa {
-  width: 50px;
-  color: #337abb;
+.foot-section .icons {
+  margin-top: 30px;
 }
 
-.social-icons .fa-cc-mastercard {
-  width: 50px;
-  color: #f69f32;
-}
-
-.social-icons .fa-paypal {
-  width: 50px;
-  color: #3393c0;
-}
-
-.social-icons .fa-cc-amex {
-  width: 50px;
-  color: #3378ba;
-}
-
-footer {
-  background-color: #545454;
-  padding: 20px;
-}
-
-.footer-items {
-  display: flex;
-  padding: 20px;
-  justify-content: space-evenly;
+.icons .fa-brands {
+  padding: 10px;
   color: white;
 }
 
-.items h4 {
-  margin-bottom: 10px;
+.foot .foot-section {
+  width: 20vw;
 }
 
-.items p {
-  font-size: 15px;
-  font-weight: 300;
+.foot-section .location,
+.phone {
+  display: flex;
+  margin-top: 20px;
+}
+
+.location p,
+.phone p {
+  margin-left: 15px;
 }
 
 .copyright {
   text-align: center;
-  color: white;
-  font-size: 10px;
+  margin-top: 40px;
+}
+
+.copyright p {
+  font-size: small;
 }
 
 @media (max-width: 744px) {
