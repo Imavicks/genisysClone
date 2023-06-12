@@ -388,7 +388,7 @@ input {
 
 .section-2 {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   top: 50px;
 }
 
@@ -451,7 +451,7 @@ input {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  padding-top: 40px;
+  padding-top: 47px;
   position: absolute;
   font-family: 'Montserrat';
 }
@@ -489,7 +489,7 @@ input {
 /* stylelint-disable */
 .see2 {
   padding-left: 60px;
-  padding-top: 170px;
+  padding-top: 250px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -503,7 +503,7 @@ input {
 
 .seee {
   display: flex;
-  padding-top: 100px;
+  padding-top: 250px;
   padding-left: 60px;
   position: relative;
 }
@@ -557,7 +557,7 @@ input {
   right: 86%;
   top: 72.02%;
   bottom: 22.2%;
-  width: 8px;
+  width: 13px;
 }
 
 /* stylelint-disable */
