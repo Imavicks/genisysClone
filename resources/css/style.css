@@ -183,12 +183,16 @@ input {
   left: 5rem;
 }
 
+/* section 1 begins here */
+
 .sect1 {
+  margin-top: 5vw;
+  margin-left: 7vw;
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -230,9 +234,8 @@ input {
 }
 
 .right-container {
+  margin-top: 3vw;
   margin-left: 1vw;
-  position: relative;
-  bottom: 14vw;
 }
 
 .shoe-detail {
