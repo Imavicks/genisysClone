@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* --Start of header style-- */
 .main {
   width: 100vw;
@@ -212,7 +216,7 @@ input {
 .gridA img {
   border-radius: 8px;
   cursor: pointer;
-  width: 35vw;
+  width: 30vw;
   margin-top: 0.5vw;
 }
 
@@ -284,6 +288,8 @@ input {
 
 .gridB {
   display: flex;
+  position: relative;
+  bottom: 1vw;
 }
 
 .gridB img {
@@ -300,7 +306,7 @@ input {
   font-size: 15px;
   margin-left: 0.5vw;
   position: relative;
-  top: 2vw;
+  bottom: 0.5vw;
 }
 
 .select-size button {
@@ -314,17 +320,15 @@ input {
   font-weight: 500;
   background-color: #fff;
   position: relative;
-  top: 2vw;
+  bottom: 0.5vw;
 }
 
 .select-width p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-left: 0.5vw;
-  position: relative;
-  top: 2vw;
 }
 
 .select-width button {
@@ -336,8 +340,6 @@ input {
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
-  position: relative;
-  top: 2vw;
 }
 
 .add-cart button {
@@ -351,12 +353,12 @@ input {
   font-weight: 600;
   font-size: 1rem;
   position: relative;
-  top: 5.2vw;
+  top: 0.5vw;
 }
 
 .love-icon {
   position: relative;
-  top: 6vw;
+  top: 1.5vw;
   left: 13vw;
 }
 
@@ -365,7 +367,6 @@ input {
 .section-2 {
   position: relative;
   height: 120vh;
-  top: 50px;
   width: 100vw;
 }
 
@@ -373,9 +374,10 @@ input {
   position: relative;
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
+  gap: 230px;
 }
 
 /* stylelint-disable */
@@ -400,11 +402,11 @@ input {
 
 .description {
   position: relative;
-  padding-left: 150px;
+  left: 300px;
 }
 
 .descrip-1 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   align-items: center;
   position: relative;
 }
@@ -454,7 +456,7 @@ input {
 /* stylelint-disable */
 .label-li {
   padding-left: 30px;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -465,30 +467,29 @@ input {
 
 /* stylelint-disable */
 .see2 {
-  padding-left: 60px;
+  /* padding-left: 60px; */
+  left: 179px;
   padding-top: 250px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
   position: absolute;
-  margin-bottom: 5px;
   color: #344054;
   font-family: 'Inter';
 }
 /* stylelint-enable */
 
 .seee {
+  align-items: center;
   display: flex;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-left: 60px;
   position: relative;
-  width: 100vw;
   justify-content: center;
 }
 
 .simi-img {
-  width: 5%;
   min-width: 150px;
   padding: 5px 5px;
   border: 0.1px solid rgb(128, 128, 128, 0.054);
@@ -517,7 +518,7 @@ input {
 .des-simi {
   text-align: start;
   margin: 5px;
-  position: relative;
+  position: relative; 
 }
 
 /* stylelint-disable */
@@ -533,17 +534,17 @@ input {
 
 .img-price img {
   left: 6.5%;
-  right: 86%;
-  top: 72.02%;
+  right: 83%;
+  top: 68.02%;
   bottom: 22.2%;
-  width: 13px;
+  width: 12px;
 }
 
 /* stylelint-disable */
 .img-price {
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
@@ -724,6 +725,10 @@ input {
 }
 
 @media (max-width: 744px) {
+  body {
+    overflow-y: visible;
+  }
+
   .sect1 {
     display: flex;
     justify-content: center;
