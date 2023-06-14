@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* --Start of header style-- */
 .main {
   width: 100vw;
@@ -212,7 +216,7 @@ input {
 .gridA img {
   border-radius: 8px;
   cursor: pointer;
-  width: 35vw;
+  width: 30vw;
   margin-top: 0.5vw;
 }
 
@@ -724,6 +728,10 @@ input {
 }
 
 @media (max-width: 744px) {
+  body{
+    overflow-y: visible;
+  }
+
   .sect1 {
     display: flex;
     justify-content: center;
