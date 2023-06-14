@@ -288,6 +288,8 @@ input {
 
 .gridB {
   display: flex;
+  position: relative;
+  bottom: 1vw;
 }
 
 .gridB img {
@@ -304,7 +306,7 @@ input {
   font-size: 15px;
   margin-left: 0.5vw;
   position: relative;
-  top: 2vw;
+  bottom: 0.5vw;
 }
 
 .select-size button {
@@ -318,17 +320,15 @@ input {
   font-weight: 500;
   background-color: #fff;
   position: relative;
-  top: 2vw;
+  bottom: 0.5vw;
 }
 
 .select-width p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-left: 0.5vw;
-  position: relative;
-  top: 2vw;
 }
 
 .select-width button {
@@ -340,8 +340,6 @@ input {
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
-  position: relative;
-  top: 2vw;
 }
 
 .add-cart button {
@@ -355,12 +353,12 @@ input {
   font-weight: 600;
   font-size: 1rem;
   position: relative;
-  top: 5.2vw;
+  top: 0.5vw;
 }
 
 .love-icon {
   position: relative;
-  top: 6vw;
+  top: 1.5vw;
   left: 13vw;
 }
 
@@ -728,7 +726,7 @@ input {
 }
 
 @media (max-width: 744px) {
-  body{
+  body {
     overflow-y: visible;
   }
 
