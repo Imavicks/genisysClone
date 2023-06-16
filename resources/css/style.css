@@ -471,11 +471,11 @@ input {
   font-family: 'Montserrat';
   position: absolute;
 }
-/* stylelint-enable */
 
 .spec-label li {
   padding: 4px;
 }
+/* stylelint-enable */
 
 /* stylelint-disable */
 .see2 {
@@ -530,7 +530,7 @@ input {
 .des-simi {
   text-align: start;
   margin: 5px;
-  position: relative; 
+  position: relative;
 }
 
 /* stylelint-disable */

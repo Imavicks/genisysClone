@@ -56,7 +56,7 @@ function changeGridBtxt(colorId) {
   }
 }
 
-//Function to change Text Content on Section 2
+// Function to change Text Content on Section 2
 
 const contentContainer = document.getElementById('contentContainer');
 
@@ -125,5 +125,3 @@ headings.forEach((heading) => {
 });
 // Display Description content by default on page load
 displayContent(descriptionContent);
-
-
