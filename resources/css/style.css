@@ -400,7 +400,7 @@ input {
   border-bottom: 2px solid blue;
 }
 
-.description {
+#contentContainer {
   position: relative;
   left: 90px;
 }
