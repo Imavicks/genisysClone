@@ -392,10 +392,6 @@ input {
 }
 /* stylelint-enable */
 
-.ppl h2 {
-  border-bottom: 2px solid #e73c17;
-}
-
 .pp:hover h2 {
   border-bottom: 2px solid blue;
 }
