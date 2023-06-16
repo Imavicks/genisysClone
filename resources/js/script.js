@@ -77,12 +77,12 @@ const descriptionContent = `
 const specificationContent = `
   <div class="label"><h5>Specification</h5></div>
   <ul class="label-li">
-    <li>Upper: The upper of the New Balance 574 Core is typically constructed using a combination of suede and mesh materials. The suede overlays provide structure and support while the mesh sections offer breathability.</li>
-    <li>Midsole: The shoe usually incorporates New Balance's ENCAP midsole technology. ENCAP combines a supportive polyurethane rim with a soft EVA foam core to provide cushioning and stability.</li>
-    <li>Outsole: The New Balance 574 Core typically features a rubber outsole that offers durability, traction, and grip on various surfaces.</li>
+    <li>Upper: The upper of the New Balance 574 Core is typically constructed using a combination of suede and mesh<br> materials. The suede overlays provide structure and support while the mesh sections offer breathability.</li>
+    <li>Midsole: The shoe usually incorporates New Balance's ENCAP midsole technology. ENCAP combines a supportive<br> polyurethane rim with a soft EVA foam core to provide cushioning and stability.</li>
+    <li>Outsole: The New Balance 574 Core typically features a rubber outsole that offers durability, traction, and grip on<br> various surfaces.</li>
     <li>Closure: The shoe usually has a lace-up closure system, allowing for a customizable and secure fit.</li>
     <li>Insole: The 574 Core typically includes a cushioned insole for added comfort and support.</li>
-    <li>Branding: The shoe often showcases the iconic New Balance "N" logo on the sides, representing the brand's identity.</li>
+    <li>Branding: The shoe often showcases the iconic New Balance "N" logo on the sides, representing the<br> brand's identity.</li>
   </ul>`;
 
 const contentOfDeliveryContent = `
