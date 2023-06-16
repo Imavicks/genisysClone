@@ -462,6 +462,22 @@ input {
 /* stylelint-enable */
 
 /* stylelint-disable */
+.spec-label {
+  padding-bottom: 60px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Montserrat';
+  position: absolute;
+}
+/* stylelint-enable */
+
+.spec-label li {
+  padding: 4px;
+}
+
+/* stylelint-disable */
 .see2 {
   /* padding-left: 60px; */
   left: 90px;

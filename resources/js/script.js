@@ -56,6 +56,7 @@ function changeGridBtxt(colorId) {
   }
 }
 
+//Function to change Text Content on Section 2
 
 const contentContainer = document.getElementById('contentContainer');
 
@@ -76,7 +77,7 @@ const descriptionContent = `
 
 const specificationContent = `
   <div class="label"><h5>Specification</h5></div>
-  <ul class="label-li">
+  <ul class="spec-label">
     <li>Upper: The upper of the New Balance 574 Core is typically constructed using a combination of suede and mesh<br> materials. The suede overlays provide structure and support while the mesh sections offer breathability.</li>
     <li>Midsole: The shoe usually incorporates New Balance's ENCAP midsole technology. ENCAP combines a supportive<br> polyurethane rim with a soft EVA foam core to provide cushioning and stability.</li>
     <li>Outsole: The New Balance 574 Core typically features a rubber outsole that offers durability, traction, and grip on<br> various surfaces.</li>
@@ -86,10 +87,7 @@ const specificationContent = `
   </ul>`;
 
 const contentOfDeliveryContent = `
-  <div class="label"></div>
-  <ul class="label-li">
-  <li>1xShoe<li>
-  </ul>`;
+  <li>1xShoe<li>`;
 
 // Function to display content in the container
 function displayContent(content) {
@@ -120,12 +118,11 @@ headings.forEach((heading) => {
         displayContent(contentOfDeliveryContent);
         break;
       default:
-        displayContent(descriptionContent); // Default to Description
+        displayContent(descriptionContent);
         break;
     }
   });
 });
-
 // Display Description content by default on page load
 displayContent(descriptionContent);
 
