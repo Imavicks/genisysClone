@@ -176,6 +176,9 @@ input {
 /* stylelint-enable */
 
 /* -- End of header style -- */
+.directory {
+  display: flex;
+}
 
 .directory a {
   position: relative;
@@ -185,6 +188,19 @@ input {
   margin: 10px;
   top: 20px;
   left: 5rem;
+}
+
+.directory a span {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.directory img {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
 }
 
 /* section 1 begins here */
