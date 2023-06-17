@@ -21,6 +21,10 @@ function changeGridA(imageNumber) {
     imageSet = ['resources/assets/blue 12.png', 'resources/assets/blue 12.png', 'resources/assets/blue 10.png', 'resources/assets/blue 11.png'];
   }
 
+  for (let i = 0; i < gridAImages.length; i++) {
+    gridAImages[i].style.border = ""; // Reset the border '1px solid' on gridA
+  }
+
   // Set grid A images to the imageSet if condition matches
   for (let i = 0; i < imageSet.length; i += 1) {
     if (i < gridAImages.length) {
@@ -36,6 +40,23 @@ function changeToGrid1(newImageSrc) {
   const changeToGrid1 = document.getElementById('grid1');
   changeToGrid1.src = newImageSrc;
 }
+
+// Variable to keep track of the currently clicked gridA element
+let currentGrid = null;
+
+function addBorder(element) {
+  // Remove border from the previous grid if there was one
+  if (currentGrid !== null) {
+    currentGrid.style.border = "";
+  }
+
+  // Add border to the clicked grid element
+  element.style.border = "1px solid black";
+
+  // Update the currentGrid variable to the clicked grid element
+  currentGrid = element;
+}
+
 
 // Function to change the colour description based on the image clicked
 /* eslint-disable */
@@ -56,8 +77,24 @@ function changeGridBtxt(colorId) {
   }
 }
 
-// Function to change Text Content on Section 2
+// Variable to keep track of the currently clicked gridB element
+let currentGridB = null;
 
+function addBorderB(element) {
+  // Remove border from the previous grid if there was one
+  if (currentGridB !== null) {
+    currentGridB.style.border = "";
+  }
+
+  // Add border to the clicked grid element
+  element.style.border = "1px solid black";
+
+  // Update the currentGrid variable to the clicked grid element
+  currentGridB = element;
+}
+
+
+// Function to change Text Content on Section 2
 const contentContainer = document.getElementById('contentContainer');
 
 const descriptionContent = `
