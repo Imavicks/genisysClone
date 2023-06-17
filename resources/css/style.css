@@ -242,6 +242,23 @@ input {
   margin-left: 1vw;
 }
 
+#ratingContainer {
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 10px;
+}
+
+.star {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+  color: orange;
+}
+
 .shoe-detail {
   display: flex;
   margin-bottom: 3vw;
@@ -262,11 +279,6 @@ input {
   margin-left: 0.3vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-}
-
-.shoe-detail img {
-  width: 7vw;
-  margin-left: 10vw;
 }
 
 .grid-selection h4 {

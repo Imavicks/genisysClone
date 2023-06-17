@@ -79,18 +79,45 @@ function changeGridBtxt(colorId) {
 
 // Variable to keep track of the currently clicked gridB element
 let currentGridB = null;
+let rating = 0;
 
 function addBorderB(element) {
-  // Remove border from the previous grid if there was one
   if (currentGridB !== null) {
     currentGridB.style.border = "";
+    resetRating();
   }
 
-  // Add border to the clicked grid element
   element.style.border = "1px solid black";
-
-  // Update the currentGrid variable to the clicked grid element
   currentGridB = element;
+}
+
+// function to rate shoes
+function rateShoes(value) {
+  rating = value;
+  updateStars();
+  // Perform any other actions based on the rating value
+}
+
+function updateStars() {
+  const stars = document.querySelectorAll(".star");
+  for (let i = 0; i < stars.length; i++) {
+    if (i < rating) {
+      stars[i].classList.add("active");
+      stars[i].style.color = "";
+    } else {
+      stars[i].classList.remove("active");
+      stars[i].style.color = "";
+    }
+  }
+}
+
+function resetRating() {
+  rating = 0;
+  updateStars();
+  const stars = document.querySelectorAll(".star");
+  for (let i = 0; i < stars.length; i++) {
+    stars[i].classList.remove("active");
+  }
 }
 
 
