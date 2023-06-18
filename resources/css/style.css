@@ -6,18 +6,18 @@
 /* --Start of header style-- */
 .main {
   width: 100vw;
-  padding: 20px;
+  padding: 10px;
   background-color: #000;
 }
 
-.main .base {
+.base {
   display: flex;
-  padding: 20px;
   margin: 10px;
   height: 10vh;
   justify-content: space-evenly;
   width: 90vw;
 }
+
 /* stylelint-disable */
 h1 {
   font-weight: 600;
@@ -27,6 +27,7 @@ h1 {
   line-height: 38px;
   width: 317px;
   height: 48px;
+  padding-left: 60px;
   margin-top: 9px;
   font-family: 'Montserrat';
 }
@@ -35,6 +36,7 @@ h1 {
 .base-search {
   display: flex;
   border-radius: 4px;
+  margin-right: 70px;
   margin-top: 3px;
   height: 56px;
 }
@@ -59,7 +61,7 @@ input {
 .base-sel {
   border: 1px solid grey;
   border-radius: 0 3px 3px 0;
-  height: 44px;
+  height: 43.5px;
   width: 168px;
   gap: 10px;
   background-color: #fff;
@@ -101,25 +103,30 @@ input {
   width: 40px;
   height: 35px;
   margin-top: 7px;
-  margin-left: 50px;
+  margin-left: 85px;
 }
 
 .profile_pic {
   width: 40px;
   height: 40px;
+  margin-top: 7px;
+  margin-left: 50px;
   border-radius: 20px;
 }
 
 .dashboard {
   background-color: #000;
   color: white;
-  height: 50px;
+  height: 70px;
 }
 
 .categories {
-  text-align: center;
   display: flex;
-  justify-content: center;
+  text-align: center;
+}
+
+.menu {
+  margin-left: 350px;
 }
 
 /* stylelint-disable */
@@ -142,11 +149,19 @@ input {
 
 .contact {
   display: flex;
+  gap: 10px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .contact_pic {
   width: 25px;
   height: 25px;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
 }
 
 /* stylelint-disable */
