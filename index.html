@@ -57,11 +57,11 @@
     </header>
     <!--End of header-->
     <div class="directory">
-        <a href="#">Home</a>
-        <a href="#">All Categories</a>
-        <a href="#">Shoes</a>
-        <a href="#">Sports</a>
-        <a href="#">New Balance</a>
+        <a href="#">Home<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">All Categories<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Shoes<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Sports<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#"><span>New Balance</span></a>
     </div>
     <section class="sect1">
         <div class="left-container">
@@ -69,26 +69,34 @@
             <div class="gridA">
                 <img src="resources/assets/white 15.jpg" alt="" id="grid1">
                 <div class="shoe-part">
-                    <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src)">
-                    <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src)">
-                    <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src)">
+                    <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src), addBorder(this)">
+                    <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src), addBorder(this)">
+                    <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src), addBorder(this)">
                 </div>
             </div>
         </div>
         <div class="right-container">
+            <div id="ratingContainer">
+                <div id="stars">
+                  <span class="star" onclick="rateShoes(1)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(2)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(3)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(4)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(5)">&#9734;</span>
+                </div>
+              </div>
             <div class="grid-selection">
                 <div class="shoe-detail">
                     <h3><b>&#8358;31,500</b></h3>
                     <span>50%</span>
-                    <img src="resources/assets/rating.jpg">
                 </div>
                 <h4>&#8358;63000</h4>
-                <p id="color"><b>Colour:</b>Nimbus cloud with white</p>
+                <p id="color"><b>Colour:</b> Nimbus cloud with white</p>
                 <div class="gridB">
-                    <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1)">
-                    <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2)">
-                    <img src="resources/assets/red 18.png" alt="" id="Red" onclick="changeGridA(3), changeGridBtxt(3)">
-                    <img src="resources/assets/blue 12.png" alt="" id="Blue" onclick="changeGridA(4), changeGridBtxt(4)">
+                    <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1), addBorderB(this)">
+                    <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2), addBorderB(this)">
+                    <img src="resources/assets/red 18.png" alt="" id="Red" onclick="changeGridA(3), changeGridBtxt(3), addBorderB(this)">
+                    <img src="resources/assets/blue 12.png" alt="" id="Blue" onclick="changeGridA(4), changeGridBtxt(4), addBorderB(this)">
                 </div>
             </div>
             <div class="btn-selection">
@@ -111,7 +119,6 @@
             </div>
         </div>
     </section>
-
     <!-- section two begins -->
     <section class="section-2">
         <div class="desp-head">
@@ -135,7 +142,7 @@
                     <i class="fa fa-star light"></i>
                     <i class="fa fa-star-half-o"></i>
                     <span class="number">(121)</span>
-            </div>
+                 </div>
             </div>
         </div>
         <div class="simi-img">
@@ -219,10 +226,7 @@
             </div>
         </div>
     </section>
-
     <!-- section-2 ends -->
-    
-      
     <footer>
         <div class="sub">
         <div class="sub-item">
@@ -237,7 +241,6 @@
             <button>SUBSCRIBE</button>
         </div>
     </div>
-
 <div class="foot">
     <div class="foot-items">
         <div class="foot-section">
@@ -253,7 +256,6 @@
                 <i class="fa-brands fa-youtube"></i>
             </div>
         </div>
-
         <div class="foot-section">
             <h4>INFORMATION</h4>
             <p>About</p>
@@ -263,7 +265,6 @@
             <p>Terms & Conditions</p>
             <p>EMI Payment</p>
         </div>
-
         <div class="foot-section">
             <h4>ACCOUNT</h4>
             <p>My Account</p>
@@ -273,7 +274,6 @@
             <p>Wishlist</p>
             <p>Account Details</p>
         </div>
-
         <div class="foot-section">
             <h4>CONTACT US</h4>
             <p>If you have any query, please contact us <br><span>needus24@gmail.com</span></p>
