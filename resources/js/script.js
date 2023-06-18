@@ -21,8 +21,8 @@ function changeGridA(imageNumber) {
     imageSet = ['resources/assets/blue 12.png', 'resources/assets/blue 12.png', 'resources/assets/blue 10.png', 'resources/assets/blue 11.png'];
   }
 
-  for (let i = 0; i < gridAImages.length; i++) {
-    gridAImages[i].style.border = ""; // Reset the border '1px solid' on gridA
+  for (let i = 0; i < gridAImages.length; i += 1) {
+    gridAImages[i].style.border = ''; // Reset the border '1px solid' on gridA
   }
 
   // Set grid A images to the imageSet if condition matches
@@ -43,20 +43,19 @@ function changeToGrid1(newImageSrc) {
 
 // Variable to keep track of the currently clicked gridA element
 let currentGrid = null;
-
+/* eslint-disable */
 function addBorder(element) {
   // Remove border from the previous grid if there was one
   if (currentGrid !== null) {
-    currentGrid.style.border = "";
+    currentGrid.style.border = '';
   }
 
   // Add border to the clicked grid element
-  element.style.border = "1px solid black";
+  element.style.border = '1px solid black';
 
   // Update the currentGrid variable to the clicked grid element
   currentGrid = element;
 }
-
 
 // Function to change the colour description based on the image clicked
 /* eslint-disable */
@@ -80,14 +79,14 @@ function changeGridBtxt(colorId) {
 // Variable to keep track of the currently clicked gridB element
 let currentGridB = null;
 let rating = 0;
-
+/* eslint-disable */
 function addBorderB(element) {
   if (currentGridB !== null) {
-    currentGridB.style.border = "";
+    currentGridB.style.border = '';
     resetRating();
   }
 
-  element.style.border = "1px solid black";
+  element.style.border = '1px solid black';
   currentGridB = element;
 }
 
@@ -99,14 +98,14 @@ function rateShoes(value) {
 }
 
 function updateStars() {
-  const stars = document.querySelectorAll(".star");
-  for (let i = 0; i < stars.length; i++) {
+  const stars = document.querySelectorAll('.star');
+  for (let i = 0; i < stars.length; i += 1) {
     if (i < rating) {
-      stars[i].classList.add("active");
-      stars[i].style.color = "";
+      stars[i].classList.add('active');
+      stars[i].style.color = '';
     } else {
-      stars[i].classList.remove("active");
-      stars[i].style.color = "";
+      stars[i].classList.remove('active');
+      stars[i].style.color = '';
     }
   }
 }
@@ -114,13 +113,12 @@ function updateStars() {
 function resetRating() {
   rating = 0;
   updateStars();
-  const stars = document.querySelectorAll(".star");
-  for (let i = 0; i < stars.length; i++) {
-    stars[i].classList.remove("active");
+  const stars = document.querySelectorAll('.star');
+  for (let i = 0; i < stars.length; i += 1) {
+    stars[i].classList.remove('active');
   }
 }
-
-
+/* eslint-enable */
 // Function to change Text Content on Section 2
 const contentContainer = document.getElementById('contentContainer');
 

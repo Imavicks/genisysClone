@@ -190,12 +190,6 @@ input {
   left: 5rem;
 }
 
-.directory a span {
-  color: black;
-  font-size: 12px;
-  font-weight: 600;
-}
-
 .directory img {
   position: absolute;
   height: 10px;
@@ -226,31 +220,38 @@ input {
 .shoe-part {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 
 .gridA img {
   border-radius: 8px;
   cursor: pointer;
-  width: 30vw;
+  width: 32vw;
   margin-top: 0.5vw;
 }
 
 #grid2 {
   height: 7rem;
-  width: 7rem;
+  width: 6rem;
 }
 
 #grid3 {
   height: 7rem;
-  width: 7rem;
+  width: 6rem;
   margin-left: 1.6rem;
 }
 
 #grid4 {
   height: 7rem;
-  width: 7rem;
+  width: 6rem;
   margin-left: 1.6rem;
+}
+
+#grid1:hover,
+#grid2:hover,
+#grid3:hover,
+#grid4:hover {
+  border: 1px solid rgb(103, 103, 196);
 }
 
 .right-container {
@@ -297,6 +298,12 @@ input {
   font-weight: 500;
 }
 
+.directory a span {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .grid-selection h4 {
   text-decoration: line-through;
   font-size: 1rem;
@@ -326,6 +333,13 @@ input {
   height: 4.7rem;
   margin: 5px;
   cursor: pointer;
+}
+
+#White:hover,
+#Black:hover,
+#Red:hover,
+#Blue:hover {
+  border: 1px solid rgb(103, 103, 196);
 }
 
 .select-size p {
@@ -381,7 +395,7 @@ input {
   font-weight: 600;
   font-size: 1rem;
   position: relative;
-  top: 0.5vw;
+  top: 2vw;
 }
 
 .love-icon {
