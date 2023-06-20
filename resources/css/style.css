@@ -779,6 +779,12 @@ input {
   margin-left: 15px;
 }
 
+.location img,
+.phone img {
+  width: 30px;
+  height: 30px;
+}
+
 .location .fa-sharp,
 .phone .fa-regular {
   color: white;
@@ -873,4 +879,50 @@ input {
   .grid-selection h4 {
     font-size: 0.5rem;
   }
+}
+
+@media (max-width: 844px) {
+.sub {
+  display: block;
+}
+
+.sub-writeup h4 {
+  font-size: 15px;
+  width: 100vw;
+}
+
+.sub-writeup h6 {
+  margin-top: 10px;
+}
+
+.subscribe {
+  margin-top: 30px;
+}
+
+.subscribe input {
+  width: 40vw;
+}
+
+.subscribe button {
+  font-size: 10px;
+  width: 100vw;
+}
+
+.foot-items {
+  width: 90vw;
+}
+
+.foot-section h4 {
+  font-size: 10px;
+}
+
+.foot-section p {
+  font-size: 8px;
+}
+
+.location img,
+.phone img {
+  width: 20px;
+  height: 20px;
+}
 }
