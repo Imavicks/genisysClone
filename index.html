@@ -93,27 +93,27 @@
                 <h4>&#8358;63000</h4>
                 <p id="color"><b>Colour:</b> Nimbus cloud with white</p>
                 <div class="gridB">
-                    <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1), addBorderB(this)">
-                    <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2), addBorderB(this)">
-                    <img src="resources/assets/red 18.png" alt="" id="Red" onclick="changeGridA(3), changeGridBtxt(3), addBorderB(this)">
-                    <img src="resources/assets/blue 12.png" alt="" id="Blue" onclick="changeGridA(4), changeGridBtxt(4), addBorderB(this)">
+                    <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/red 18.png" alt="" id="Red" onclick="changeGridA(3), changeGridBtxt(3), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/blue 12.png" alt="" id="Blue" onclick="changeGridA(4), changeGridBtxt(4), addBorderB(this), selectImage(this)">
                 </div>
             </div>
             <div class="btn-selection">
                 <div class="select-size">
                     <p><b>Select size</b></p>
-                    <button type="button">5</button>
-                    <button type="button">5.5</button>
-                    <button type="button">6</button>
-                    <button type="button">6.5</button>
+                    <button type="button" onclick="selectSize(this)">5</button>
+                    <button type="button" onclick="selectSize(this)">5.5</button>
+                    <button type="button" onclick="selectSize(this)">6</button>
+                    <button type="button" onclick="selectSize(this)">6.5</button>
                 </div>
                 <div class="select-width">
                     <p><b>Select width</b></p>
-                    <button type="button">Standard</button>
-                    <button type="button">Wide</button>
+                    <button type="button" onclick="selectWidth(this)">Standard</button>
+                    <button type="button" onclick="selectWidth(this)">Wide</button>
                 </div>
                 <div class="add-cart">
-                    <button type="button">Add to cart</button>
+                    <button type="button" onclick="addToCart()">Add to cart</button>
                     <img class="love-icon" src="resources/assets/Vector (1).png" alt="" srcset="">
                 </div>
             </div>
