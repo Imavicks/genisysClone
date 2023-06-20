@@ -254,5 +254,5 @@ function addToCart() {
   sessionStorage.setItem("product", JSON.stringify(product));
 
   // Navigate to the cart page
-  window.location.href ='resources/cart.html';
+  window.location.href = 'resources/html/cart.html';
 }
