@@ -219,10 +219,15 @@ input {
 }
 
 /* CART ITEMS */
+
+/* stylelint-disable */
 .section-1 {
+  font-family: 'Montserrat';
+  font-style: normal;
   position: relative;
   height: 100vh;
 }
+/* stylelint-enable */
 
 .return-page {
   display: flex;
@@ -261,7 +266,7 @@ input {
 }
 
 .cart-item-heading {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .cart-item-price {
