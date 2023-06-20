@@ -10,9 +10,9 @@ const cartItemWidth = document.querySelector('.cart-item-width');
 
 cartItemImage.src = product.image;
 cartItemPrice.innerHTML = `<b>&#8358;<b>${product.price}`;
-cartItemColor.innerHTML = `<b>Color: <b>${product.color}`;
-cartItemSize.innerHTML = `<b>Select Size: <b>${product.size}`;
-cartItemWidth.innerHTML = `<b>Select Width: <b>${product.width}`;
+cartItemColor.innerHTML = `Color: ${product.color}`;
+cartItemSize.innerHTML = `Select Size: ${product.size}`;
+cartItemWidth.innerHTML = `Select Width: ${product.width}`;
 
 // Add event listener to remove items button
 const removeItemsButton = document.getElementById('remove-items');
