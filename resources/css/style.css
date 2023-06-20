@@ -399,6 +399,12 @@ input {
   background-color: #fff;
 }
 
+.select-size button.selected,
+.select-width button.selected {
+  background-color: #000;
+  color: #fff;
+}
+
 .add-cart button {
   color: white;
   width: 17rem;
@@ -882,47 +888,47 @@ input {
 }
 
 @media (max-width: 844px) {
-.sub {
-  display: block;
-}
+  .sub {
+    display: block;
+  }
 
-.sub-writeup h4 {
-  font-size: 15px;
-  width: 100vw;
-}
+  .sub-writeup h4 {
+    font-size: 15px;
+    width: 100vw;
+  }
 
-.sub-writeup h6 {
-  margin-top: 10px;
-}
+  .sub-writeup h6 {
+    margin-top: 10px;
+  }
 
-.subscribe {
-  margin-top: 30px;
-}
+  .subscribe {
+    margin-top: 30px;
+  }
 
-.subscribe input {
-  width: 40vw;
-}
+  .subscribe input {
+    width: 40vw;
+  }
 
-.subscribe button {
-  font-size: 10px;
-  width: 100vw;
-}
+  .subscribe button {
+    font-size: 10px;
+    width: 100vw;
+  }
 
-.foot-items {
-  width: 90vw;
-}
+  .foot-items {
+    width: 90vw;
+  }
 
-.foot-section h4 {
-  font-size: 10px;
-}
+  .foot-section h4 {
+    font-size: 10px;
+  }
 
-.foot-section p {
-  font-size: 8px;
-}
+  .foot-section p {
+    font-size: 8px;
+  }
 
-.location img,
-.phone img {
-  width: 20px;
-  height: 20px;
-}
+  .location img,
+  .phone img {
+    width: 20px;
+    height: 20px;
+  }
 }
