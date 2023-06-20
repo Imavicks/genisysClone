@@ -154,7 +154,7 @@ input {
 .contact {
   display: flex;
   gap: 10px;
-  margin-left: 120px;
+  margin-left: 160px;
   margin-top: 20px;
 }
 
@@ -415,7 +415,7 @@ input {
 
 .love-icon {
   position: relative;
-  top: 1.5vw;
+  top: 2.5vw;
   left: 13vw;
 }
 
