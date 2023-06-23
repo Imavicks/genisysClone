@@ -250,7 +250,7 @@ function addToCart() {
   }
 
   // Clear the session storage
-  sessionStorage.clear();
+  // sessionStorage.clear();
 
   // Set the product details in the session storage
   sessionStorage.setItem('product', JSON.stringify(product));
