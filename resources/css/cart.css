@@ -519,13 +519,13 @@ input {
 /* stylelint-disable */
 
 .sub-item h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   font-family: 'Inter';
 }
 
 .sub-item h6 {
-  font-size: 15px;
+  font-size: 12px;
   font-family: 'Inter';
   font-weight: 500;
 }
