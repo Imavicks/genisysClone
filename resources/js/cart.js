@@ -86,7 +86,9 @@ removeItemsButton.addEventListener('click', () => {
 const checkoutImage = document.querySelector('.cart-item-image');
 const checkoutColor = document.querySelector('.cart-item-color');
 
+/* eslint-disable */
 function pushToCheckout() {
+/* eslint-enable */
   const checkoutProduct = {
     price: product.price,
     quantity: count,

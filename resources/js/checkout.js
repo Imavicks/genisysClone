@@ -14,6 +14,27 @@ checkoutItemColor.innerHTML = `${checkoutProduct.color}`;
 checkoutItemQuantity.innerHTML = `x${checkoutProduct.quantity}`;
 checkoutCountIndicator.innerHTML = `${checkoutProduct.quantity}`;
 
+// Function to change background color indicator to selected product color
+const prdColorElement = document.getElementById('prd-color');
+const colorElement = document.querySelector('.product .color');
+
+prdColorElement.addEventListener('DOMCharacterDataModified', () => {
+  const prdColorText = prdColorElement.textContent.trim();
+  const prdColor = prdColorText.toLowerCase().replace('color: ', '');
+  let backgroundColor = '';
+
+  if (prdColor === 'nimbus cloud with white') {
+    backgroundColor = 'white';
+  } else if (prdColor === 'black and white') {
+    backgroundColor = 'black';
+  } else if (prdColor === 'burgundy with white') {
+    backgroundColor = 'brown';
+  } else if (prdColor === 'navy with white') {
+    backgroundColor = 'blue';
+  }
+
+  colorElement.style.backgroundColor = backgroundColor;
+});
 
 // Add commas to the displayed price
 const formattedPrice = checkoutProduct.price.toLocaleString();
@@ -24,7 +45,7 @@ const totalPrice = checkoutProduct.price * checkoutProduct.quantity;
 const formattedTotalPrice = totalPrice.toLocaleString();
 checkoutItemTotalPrice.innerHTML = formattedTotalPrice;
 
-// Update Total Checkout Prices 
+// Update Total Checkout Prices
 const prdTotal = document.getElementById('prd-total');
 const prdShipping = document.getElementById('prd-shipping');
 const prdTax = document.getElementById('prd-tax');
@@ -39,5 +60,4 @@ const tax = parseFloat(prdTax.innerHTML.replace(/,/g, ''));
 const finalCheckoutPrice = subtotal + shippingCost + tax;
 
 // Set the calculated value to the checkout total element
-checkoutTotal.innerHTML = finalCheckoutPrice.toLocaleString()
-
+checkoutTotal.innerHTML = finalCheckoutPrice.toLocaleString();
