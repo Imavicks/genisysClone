@@ -81,9 +81,25 @@ removeItemsButton.addEventListener('click', () => {
   section2.prepend(backButton);
 });
 
-// Add event listener to checkout button
-const checkoutButton = document.querySelector('.checkout-button button');
-checkoutButton.addEventListener('click', () => {
-  // Perform checkout process here
-  // Redirect to the checkout page and checkout logic
-});
+// Push to Checkout Page
+
+const checkoutImage = document.querySelector('.cart-item-image');
+const checkoutColor = document.querySelector('.cart-item-color');
+
+function pushToCheckout() {
+  const checkoutProduct = {
+    price: product.price,
+    quantity: count,
+    color: '', // Placeholder for the color
+    image: '', // Placeholder for the product image
+  };
+
+  checkoutProduct.color = checkoutColor.textContent;
+  checkoutProduct.image = checkoutImage.src;
+
+  // Set the product details in the session storage
+  sessionStorage.setItem('checkoutProduct', JSON.stringify(checkoutProduct));
+
+  // Navigate to the checkout page
+  window.location.href = '/resources/html/checkout.html';
+}

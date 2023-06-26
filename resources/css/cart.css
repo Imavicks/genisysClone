@@ -110,6 +110,19 @@ input {
   margin-left: 85px;
 }
 
+/* Cart count header icon indicator styles */
+.cart-count {
+  position: absolute;
+  padding: 4px;
+  width: 9px;
+  height: 11px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
 .profile_pic {
   width: 40px;
   height: 40px;
@@ -309,19 +322,6 @@ input {
 #total-count {
   margin-left: 35px;
   font-size: 16px;
-}
-
-/* Cart count header icon indicator styles */
-.cart-count {
-  position: absolute;
-  padding: 4px;
-  width: 9px;
-  height: 11px;
-  background-color: #ff0000;
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 50%;
 }
 
 #remove-items {
