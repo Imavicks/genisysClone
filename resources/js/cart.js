@@ -103,5 +103,5 @@ function pushToCheckout() {
   sessionStorage.setItem('checkoutProduct', JSON.stringify(checkoutProduct));
 
   // Navigate to the checkout page
-  window.location.href = '/resources/html/checkout.html';
+  window.location.href = '../html/checkout.html';
 }
