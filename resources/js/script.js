@@ -249,9 +249,6 @@ function addToCart() {
     product.color = colorElement.textContent.replace('Colour:', '').trim();
   }
 
-  // Clear the session storage
-  // sessionStorage.clear();
-
   // Set the product details in the session storage
   sessionStorage.setItem('product', JSON.stringify(product));
 
