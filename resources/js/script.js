@@ -12,13 +12,13 @@ function changeGridA(imageNumber) {
   let imageSet = [];
 
   if (imageNumber === 1) {
-    imageSet = ['../assets/white 15.jpg', '../assets/white 15.jpg', '../assets/white 20.png', '../assets/white 21.png'];
+    imageSet = ['resources/assets/white 15.jpg', 'resources/assets/white 15.jpg', 'resources/assets/white 20.png', 'resources/assets/white 21.png'];
   } else if (imageNumber === 2) {
-    imageSet = ['../assets/black 5.png', '../assets/black 5.png', '../assets/black 15.png', '../assets/black 8.png'];
+    imageSet = ['resources/assets/black 5.png', 'resources/assets/black 5.png', 'resources/assets/black 15.png', 'resources/assets/black 8.png'];
   } else if (imageNumber === 3) {
-    imageSet = ['../assets/red 18.png', '../assets/red 18.png', '../assets/red 15.png', '../assets/red 14.png'];
+    imageSet = ['resources/assets/red 18.png', 'resources/assets/red 18.png', 'resources/assets/red 15.png', 'resources/assets/red 14.png'];
   } else if (imageNumber === 4) {
-    imageSet = ['../assets/blue 12.png', '../assets/blue 12.png', '../assets/blue 10.png', '../assets/blue 11.png'];
+    imageSet = ['resources/assets/blue 12.png', 'resources/assets/blue 12.png', 'resources/assets/blue 10.png', 'resources/assets/blue 11.png'];
   }
 
   for (let i = 0; i < gridAImages.length; i += 1) {
