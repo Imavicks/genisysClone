@@ -127,7 +127,7 @@ const descriptionContent = `
     <div class="desp-h4"><h4>Description</h4></div>
     <div class="desp-p"><p>This model runs small, you may consider ordering from your normal size.</p></div>
   </div>
-  <div class="label"><h5>Key Features</h5></div>
+  <div class="label label-1"><h5>Key Features</h5></div>
   <ul class="label-li">
     <li>suede / mesh upper</li>
     <li>Vamp, collar and tongue mesh are 100% recycled<br/>polyester</li>
