@@ -955,14 +955,14 @@ input {
 
   /* footer starts here */
 
-footer {
+  footer {
   margin-top: 25vw;
 }
 
-    .sub {
+  .sub {
     display: block;
   }
-
+  
   .sub-writeup h4 {
     font-size: 15px;
     width: 100vw;
@@ -997,11 +997,11 @@ footer {
   }
 
   .foot-section h4 {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .foot-section p {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .location img,
