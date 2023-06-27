@@ -429,18 +429,16 @@ input {
 
 .section-2 {
   position: relative;
-  height: 120vh;
-  width: 100vw;
+  bottom: 1vw;
 }
 
 .desp-head {
-  position: relative;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 45px;
-  gap: 230px;
+  gap: 200px; 
 }
 
 /* stylelint-disable */
@@ -460,8 +458,7 @@ input {
 }
 
 #contentContainer {
-  position: relative;
-  left: 80px;
+  margin-left: 15vw;
 }
 
 .descrip-1 {
@@ -492,6 +489,7 @@ input {
   padding-top: 47px;
   position: absolute;
   font-family: 'Montserrat';
+  margin-top: 1vw;
 }
 /* stylelint-enable */
 
@@ -502,9 +500,12 @@ input {
   font-weight: 600;
   padding-bottom: 25px;
   line-height: 28px;
-  padding-top: 65px;
   position: relative;
   font-family: 'Montserrat';
+}
+
+.label-1 {
+  margin-top: 4vw;
 }
 /* stylelint-enable */
 
@@ -521,6 +522,7 @@ input {
   line-height: 20px;
   font-family: 'Montserrat';
   position: absolute;
+  margin-top: 1vw;
 }
 /* stylelint-enable */
 
@@ -549,7 +551,8 @@ input {
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
-  position: absolute;
+  margin-top: 2vw;
+  margin-left: 15vw;
   color: #344054;
   font-family: 'Inter';
 }
@@ -558,10 +561,10 @@ input {
 .seee {
   align-items: center;
   display: flex;
-  padding-top: 200px;
-  padding-left: 60px;
-  position: relative;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 15vw;
+  margin-left: 2vw;
 }
 
 .simi-img {
@@ -807,39 +810,30 @@ input {
 
 @media (max-width: 744px) {
   body {
-    overflow-y: visible;
-  }
-
-  .sect1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-y: hidden;
   }
 
   .left-container h3 {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1rem;
   }
 
-  #grid2 {
-    height: 4rem;
-    width: 4rem;
-  }
-
-  #grid3 {
-    height: 4rem;
-    width: 4rem;
-  }
-
+  #grid2,
+  #grid3,
   #grid4 {
     height: 4rem;
     width: 4rem;
   }
 
   #grid1 {
-    width: 25vw;
-    display: block;
-    margin: 0 auto;
+    width: 85vw;
+    position: relative;
+    right: 3vw;
+  }
+
+  #stars{
+    position: relative;
+    top: 8vw;
+    right: 30vw;
   }
 
   #gridB {
@@ -855,22 +849,25 @@ input {
 
   .select-width button {
     width: 5rem;
-    height: 3.75rem;
+    height: 3rem;
+    font-size: 1rem;
   }
 
   .select-size button {
-    width: 3.5rem;
-    height: 3.75rem;
+    width: 2.5rem;
+    height: 2rem;
+    font-size: 1rem;
   }
 
   .shoe-detail h3 {
-    font-size: 0.7rem;
+    font-size: 1.5rem;
   }
 
   .shoe-detail span {
-    font-size: 0.5rem;
-    width: 0.9rem;
-    height: 0.55rem;
+    font-size: 1rem;
+    width: 1.7rem;
+    height: 1.3rem;
+    margin-left: 2vw;
   }
 
   .shoe-detail img {
@@ -883,12 +880,86 @@ input {
   }
 
   .grid-selection h4 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
+
+  .grid-selection p {
+    margin-top: 3vw;
+  }
+
+  /* section 2 starts here */
+
+  .section-2 {
+    margin-top: 30vw;
+  }
+
+  .desp-head{
+    display: flex;
+    font-size: 0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 95px;
+    margin-left: 3vw;
+  }
+
+  .desp-head h2 {
+    font-size: 0.8rem;
+  }
+
+  .desp-h4,
+  .descrip-1,
+  .desp-p,
+  .label,
+  .label-li,
+  .spec-label {
+    font-size: 0.8rem;
+  }
+
+  #contentContainer {
+    position: relative;
+    right: 10vw;
+    bottom: 2vw;
+  }
+
+  .label-1 {
+    margin-top: 15vw;
+  }
+
+  .see2 {
+    font-size: 1rem;
+    margin-top: 75vw;
+    position: relative;
+    left: 2vw;
+  }
+
+  .seee{
+    padding: 0;
+    margin: 0;
+  }
+
+  .simi-img {
+    position: relative;
+    right: 5vw;
+  }
+
+  .types {
+    position: relative;
+    right: 5vw;
+  }
+
+  .fa-star,
+  .fa-star-half-o {
+    position: relative;
+    right: 2vw;
+  }
+
+  /* footer starts here */
+
+footer {
+  margin-top: 25vw;
 }
 
-@media (max-width: 844px) {
-  .sub {
+    .sub {
     display: block;
   }
 
@@ -903,6 +974,7 @@ input {
 
   .subscribe {
     margin-top: 30px;
+    margin-left: 7vw;
   }
 
   .subscribe input {
@@ -915,7 +987,13 @@ input {
   }
 
   .foot-items {
-    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 10vw;
   }
 
   .foot-section h4 {
@@ -932,3 +1010,4 @@ input {
     height: 20px;
   }
 }
+
