@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -259,9 +260,10 @@ input {
 }
 
 .cart-item {
-  position: relative;
   display: flex;
-  left: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -346,8 +348,8 @@ input {
 
 /* CART ITEMS ENDS HERE */
 
-.section-2-adjusted {
-  margin-top: 8rem;
+.section-2 {
+  margin-top: 15vw;
 }
 
 .back-button {
@@ -364,7 +366,6 @@ input {
 /* stylelint-disable */
 .see2 {
   position: relative;
-  /* padding-left: 60px; */
   left: 80px;
   bottom: 60px;
   font-style: normal;
@@ -378,9 +379,10 @@ input {
 .seee {
   align-items: center;
   display: flex;
-  padding-left: 60px;
-  position: relative;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 15vw;
+  margin-left: 2vw;
 }
 
 .simi-img {
@@ -624,12 +626,47 @@ input {
   font-size: small;
 }
 
-/* Footer Responsiveness */
-@media (max-width: 844px) {
+/* Mobile Responsiveness */
+@media (max-width: 744px) {
+  html, body {
+  overflow-x: hidden;
+  }
+
+  .return-page h2,
+  .cart-item-heading,
+  .cart-item-price {
+    font-size: 1.2rem;
+  }
+
+  .cart-item-image {
+    width: 60vw;
+    height: 30vh;
+  }
+
+  .cart-item-details {
+    margin-top: 5vw;
+  }
+
+  .return-page img {
+    width: 7vw;
+  }
+
+  /* section 2 starts here */
+
+  .see2 {
+    font-size: 1rem;
+  }
+
+  /* footer starts here */
+
+  footer {
+  margin-top: 25vw;
+}
+
   .sub {
     display: block;
   }
-
+  
   .sub-writeup h4 {
     font-size: 15px;
     width: 100vw;
@@ -641,6 +678,7 @@ input {
 
   .subscribe {
     margin-top: 30px;
+    margin-left: 7vw;
   }
 
   .subscribe input {
@@ -653,15 +691,21 @@ input {
   }
 
   .foot-items {
-    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 10vw;
   }
 
   .foot-section h4 {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .foot-section p {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .location img,
