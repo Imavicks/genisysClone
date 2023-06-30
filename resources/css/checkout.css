@@ -341,9 +341,16 @@ input {
   margin-left: 5px;
 }
 
-.method {
+.method-radio {
   position: relative;
-  right: 8rem;
+  padding: 10px;
+  margin-left: 1vw;
+  line-height: 2.5;
+}
+
+.method-radio form input {
+  width: 20px;
+  height: 15px;
 }
 
 #product-cart {
