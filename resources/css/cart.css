@@ -262,14 +262,15 @@ input {
 .cart-item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 30px;
+  margin-left: 10vw;
 }
 
 .cart-item-image {
   height: 64vh;
-  width: 37vw;
+  width: 30vw;
 }
 
 .cart-item-details {
@@ -348,8 +349,8 @@ input {
 
 /* CART ITEMS ENDS HERE */
 
-.section-2 {
-  margin-top: 15vw;
+.section-2-adjusted {
+  margin-top: 1vw;
 }
 
 .back-button {
@@ -653,9 +654,15 @@ input {
 
   /* section 2 starts here */
 
+  .section-2 {
+    margin-top: 10vw;
+  }
   .see2 {
     font-size: 1rem;
+    position: relative;
+    left: 4vw;
   }
+
 
   /* footer starts here */
 

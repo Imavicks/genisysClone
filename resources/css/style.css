@@ -364,7 +364,7 @@ input {
   font-size: 15px;
   margin-left: 0.5vw;
   position: relative;
-  bottom: 0.5vw;
+  top: 1vw;
 }
 
 .select-size button {
@@ -378,11 +378,12 @@ input {
   font-weight: 500;
   background-color: #fff;
   position: relative;
-  bottom: 0.5vw;
+  top: 1vw;
 }
 
 .select-width p {
-  margin-top: 0.5rem;
+  position: relative;
+  top: 2vw;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -398,6 +399,8 @@ input {
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
+  position: relative;
+  top: 2vw;
 }
 
 .select-size button.selected,
@@ -417,12 +420,12 @@ input {
   font-weight: 600;
   font-size: 1rem;
   position: relative;
-  top: 2vw;
+  top: 5vw;
 }
 
 .love-icon {
   position: relative;
-  top: 2.5vw;
+  top: 5.5vw;
   left: 13vw;
 }
 

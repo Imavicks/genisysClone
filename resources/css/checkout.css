@@ -356,6 +356,7 @@ input {
 #product-cart {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -447,23 +448,65 @@ input {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: #000;
-  height: 8vh;
+  height: 6vh;
+  gap: 1000px;
 }
 
 .signout {
-  position: relative;
-  right: 13vw;
   color: #fff;
-  font-size: 15px;
-  padding: 10px;
 }
 
 .help {
-  position: relative;
-  left: 13vw;
   color: #fff;
-  font-size: 15px;
-  padding: 10px;
+}
+
+@media (max-width: 744px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .order,
+  .product {
+    margin-left: 1vw;
+  }
+
+  .itemP img {
+    height: 15vh;
+    margin-top: 10vw;
+  }
+
+  .code input {
+    width: 15vw;
+  }
+
+  .apply p {
+    margin-left: 5vw;
+    margin-top: 7vw;
+  }
+
+  .coupon-item button {
+    margin-right: 10vw;
+    margin-top: 5vw;
+    width: 25vw;
+  }
+
+  #product-cart {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  footer {
+    height:10vh;
+    gap: 20px;
+  }
+
+  #deliver,
+  #pay {
+    margin-right: 10vw;
+  }
+
 }
