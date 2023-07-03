@@ -200,14 +200,14 @@ input {
   position: relative;
   text-decoration: none;
   color: gray;
-  font-size: 10px;
+  font-size: 14px;
   margin: 10px;
   top: 20px;
   left: 5rem;
 }
 
 .directory img {
-  position: absolute;
+  position: relative;
   height: 10px;
   width: 10px;
   margin-left: 5px;
@@ -814,8 +814,9 @@ input {
 
 @media (max-width: 744px) {
   body {
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
+  /* sectin 1 starts here */
 
   .left-container h3 {
     font-size: 1rem;
@@ -834,9 +835,13 @@ input {
     right: 3vw;
   }
 
+  .shoe-part {
+    margin-top: 2vw;
+  }
+
   #stars{
     position: relative;
-    top: 8vw;
+    top: 12vw;
     right: 30vw;
   }
 
@@ -888,13 +893,13 @@ input {
   }
 
   .grid-selection p {
-    margin-top: 3vw;
+    margin-top: 5vw;
   }
 
   /* section 2 starts here */
 
   .section-2 {
-    margin-top: 30vw;
+    margin-top: 50vw;
   }
 
   .desp-head{
@@ -1013,5 +1018,10 @@ input {
     width: 20px;
     height: 20px;
   }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
 }
 
