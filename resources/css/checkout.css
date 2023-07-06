@@ -363,11 +363,12 @@ input {
 .cartP {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   border: 1px solid black;
   padding: 2vw;
   margin-top: 30px;
   width: 80vw;
-  height: 30vh;
+  height: 35vh;
 }
 
 .product .color {
@@ -387,7 +388,9 @@ input {
 
 .itemP img {
   width: 18vw;
-  height: 30vh;
+  height: 29vh;
+  position: relative;
+  bottom: 1vw;
 }
 
 .qty {
@@ -499,6 +502,15 @@ footer {
     align-items: flex-start;
   }
 
+  .cartP {
+    width: 90vw;
+    height: 55vh;
+  }
+
+  .coupon-item button {
+    width: 25vw;
+  }
+
   footer {
     height:10vh;
     gap: 20px;
@@ -507,6 +519,10 @@ footer {
   #deliver,
   #pay {
     margin-right: 10vw;
+  }
+
+  .navbar-nav {
+    text-align: center;
   }
 
 }

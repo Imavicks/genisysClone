@@ -655,7 +655,7 @@ input {
   /* section 2 starts here */
 
   .section-2 {
-    margin-top: 10vw;
+    margin-top: 20vw;
   }
   .see2 {
     font-size: 1rem;
@@ -720,4 +720,9 @@ input {
     width: 20px;
     height: 20px;
   }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
 }

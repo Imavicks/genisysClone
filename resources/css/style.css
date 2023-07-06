@@ -841,7 +841,7 @@ input {
 
   #stars{
     position: relative;
-    top: 12vw;
+    top: 14vw;
     right: 30vw;
   }
 
@@ -899,7 +899,8 @@ input {
   /* section 2 starts here */
 
   .section-2 {
-    margin-top: 50vw;
+    position: relative;
+    top: 50vw;
   }
 
   .desp-head{
@@ -932,11 +933,12 @@ input {
 
   .label-1 {
     margin-top: 15vw;
+    font-size: 0.8rem;
   }
 
   .see2 {
     font-size: 1rem;
-    margin-top: 75vw;
+    margin-top: 65vw;
     position: relative;
     left: 2vw;
   }
@@ -965,7 +967,7 @@ input {
   /* footer starts here */
 
   footer {
-  margin-top: 25vw;
+  margin-top: 75vw;
 }
 
   .sub {
