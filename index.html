@@ -80,20 +80,22 @@
             </div>
         </div>
         <div class="right-container">
-            <div id="ratingContainer">
-                <div id="stars">
-                  <span class="star" onclick="rateShoes(1)">&#9734;</span>
-                  <span class="star" onclick="rateShoes(2)">&#9734;</span>
-                  <span class="star" onclick="rateShoes(3)">&#9734;</span>
-                  <span class="star" onclick="rateShoes(4)">&#9734;</span>
-                  <span class="star" onclick="rateShoes(5)">&#9734;</span>
-                </div>
-              </div>
             <div class="grid-selection">
-                <div class="shoe-detail">
-                    <h3><b>&#8358;31,500</b></h3>
-                    <span>50%</span>
-                </div>
+                <div class="slash d-flex">
+                    <div class="shoe-detail">
+                     <h3><b>&#8358;31,500</b></h3>
+                     <span>50%</span>
+                    </div>
+                    <div id="ratingContainer">
+                     <div id="stars">
+                        <span class="star" onclick="rateShoes(1)">&#9734;</span>
+                        <span class="star" onclick="rateShoes(2)">&#9734;</span>
+                        <span class="star" onclick="rateShoes(3)">&#9734;</span>
+                        <span class="star" onclick="rateShoes(4)">&#9734;</span>
+                        <span class="star" onclick="rateShoes(5)">&#9734;</span>
+                     </div>
+                   </div>
+               </div>
                 <h4>&#8358;63000</h4>
                 <p id="color"><b>Colour:</b> Nimbus cloud with white</p>
                 <div class="gridB">
@@ -106,10 +108,12 @@
             <div class="btn-selection">
                 <div class="select-size">
                     <p><b>Select size</b></p>
-                    <button type="button" onclick="selectSize(this)">5</button>
-                    <button type="button" onclick="selectSize(this)">5.5</button>
-                    <button type="button" onclick="selectSize(this)">6</button>
-                    <button type="button" onclick="selectSize(this)">6.5</button>
+                    <div class="btn-size d-flex flex-wrap">
+                        <button type="button" onclick="selectSize(this)">5</button>
+                        <button type="button" onclick="selectSize(this)">5.5</button>
+                        <button type="button" onclick="selectSize(this)">6</button>
+                        <button type="button" onclick="selectSize(this)">6.5</button>
+                    </div>
                 </div>
                 <div class="select-width">
                     <p><b>Select width</b></p>

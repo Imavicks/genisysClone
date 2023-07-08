@@ -297,6 +297,7 @@ const mobileHeader = `<section class="title">
 
     const originalHeader = document.querySelector(".main").innerHTML;
     const headDirectory = document.querySelector(".directory");
+    const love  = document.querySelector(".love-icon")
     function changeHeader() {
       const desktopHeader = document.querySelector(".main");
       
@@ -304,6 +305,7 @@ const mobileHeader = `<section class="title">
       if (window.innerWidth <= 744) {
         desktopHeader.innerHTML = mobileHeader;
         headDirectory.style.display = "none";
+        love.style.display = 'none';
       } else{
         desktopHeader.innerHTML = originalHeader;
       }
